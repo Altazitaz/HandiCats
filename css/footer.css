@@ -1,0 +1,375 @@
+/*----------------------------FOOTER----------------------------*/
+
+.contener-footer, .contener-plan {
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #e1cbec;
+    padding: 10px;
+    margin-top: 80px;
+    padding-bottom: 48px;
+    width: 100%
+}
+
+.sous-legende2 {
+    font-size: 2rem;
+    color: #A10684;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+.adresse {
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+}
+
+.patte {
+    width: 6%;
+    /* height: 50px; */
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.patte img {
+    width: 100%;
+}
+
+.onglet-bas {
+    margin: 0 auto;
+    width: 40.5%;
+}
+
+.onglet-bas li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 8%;
+}
+
+.onglet-bas li:last-child {
+    margin-right: 0;
+}
+
+.onglet-bas li a {
+    font-size: 2rem;
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+footer span {
+    margin-left: 40%;
+    
+}
+
+#avertissement {
+    position: fixed;
+    bottom: 0;
+    background: white;
+    /* padding: 10px; */
+    display: table;
+    width: 100%;
+}
+
+#avertissement p {
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+    position: relative;
+    table-layout: fixed;
+}
+
+#avertissement span {
+    position: relative;
+    -webkit-animation: linear marqueelike 12s 3;
+    -moz-animation: linear marqueelike 12s 3;
+    -o-animation: linear marqueelike 12s 3;
+    -ms-animation: linear marqueelike 12s 3;
+    animation: linear marqueelike 12s 3;
+    display: block;
+    margin-left: -100%;
+    padding-bottom: 0.5%;
+}
+
+#avertissement span:after {
+    content: attr(data-text);
+    position: absolute;
+    white-space: nowrap;
+    margin-bottom: 7px;
+}
+
+@-webkit-keyframes marqueelike {
+    0%,
+    100% {
+        max-height: 18px;
+        margin-left: 100%;
+    }
+    99.99% {
+        margin-left: -50%;
+    }
+}
+
+@-moz-keyframes marqueelike {
+    0%,
+    100% {
+        max-height: 18px;
+        margin-left: 100%;
+    }
+    99.99% {
+        margin-left: -50%;
+    }
+}
+
+@-o-keyframes marqueelike {
+    0%,
+    100% {
+        max-height: 18px;
+        margin-left: 100%;
+    }
+    99.99% {
+        margin-left: -50%;
+    }
+}
+
+@-ms-keyframes marqueelike {
+    0%,
+    100% {
+        max-height: 18px;
+        margin-left: 100%;
+    }
+    99.99% {
+        margin-left: -50%;
+    }
+}
+
+@keyframes marqueelike {
+    0%,
+    100% {
+        max-height: 18px;
+        margin-left: 100%;
+    }
+    99.99% {
+        margin-left: -50%;
+    }
+}
+
+
+
+/*-------------------------------CONTACT EQUIPE--------------------------------*/
+
+.contener-equipe {
+    width: 70%;
+    /*	border: 1px solid red;*/
+    margin: 0 auto;
+}
+
+.contener-equipe h1 {
+    margin-top: 5%;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contener-equipe p {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*-------------------------------CSS MENTION LEGALE--------------------------------*/
+
+.contener-mention {
+    width: 70%;
+    /*	border: 1px solid red;*/
+    margin: 0 auto;
+}
+
+.contener-mention h1 {
+    margin-top: 5%;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contener-mention p {
+    margin-top: 3%;
+}
+
+.contener-mention article {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contener-mention article a {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/*-------------------------------CSS PLAN DU SITE--------------------------------*/
+
+.contener-plan {
+    width: 70%;
+    /*	border: 1px solid red;*/
+    margin: 0 auto;
+}
+
+.contener-plan h1 {
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 2.2rem;
+    color: black;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.contener-plan h4 {
+    font-size: 2rem;
+    color: black;
+    font-weight: 300;
+    padding-left: 7%;
+    padding-top: 0.5%;
+  
+}
+ 
+
+.contener-plan p {
+    font-size: 2rem;
+    color: black;
+    font-weight: 300;
+    padding-left: 9%;
+    padding-top: 0.5%;
+    text-decoration: none;
+  
+}
+
+.contener-plan a{
+    text-decoration: none;
+}
+
+/*-------------------------------RESPONSIVE--------------------------------*/
+
+@media screen and (min-width:1100px) and (max-width:1400px) {
+    .contener-footer, .contener-plan {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .onglet-bas {
+        margin: 0 auto;
+        width: 40%;
+        text-align: center;
+    }
+
+    footer span {
+        margin-left: 35%;
+    }
+}
+
+
+/*------------------------------TABLET-------------------------------*/
+
+@media screen and (min-width:968px) and (max-width:1100px) {
+
+    .contener-footer, .contener-plan {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    footer {
+        background-color: #e1cbec;
+        padding: 10px;
+        margin-top: 80px;
+        padding-bottom: 48px;
+        width: 100%
+    }
+
+    .onglet-bas {
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+    }
+
+    footer span {
+        margin-left: 30%;
+    }
+
+}
+/*-----------------------------MOBILE-------------------------------*/
+
+@media screen and (min-width:300px) and (max-width:968px) {
+    .contener-footer, .contener-plan {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    footer{
+        margin: 0 auto;
+    }
+
+    footer {
+        background-color: #e1cbec;
+        padding: 10px;
+        margin-top: 80px;
+        padding-bottom: 48px;
+        width: 95%
+    }
+
+    .patte {
+        width: 12%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+
+    }
+    
+    .patte img {
+        width: 100%;
+    }
+    
+    .onglet-bas {
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+    }
+    
+    .onglet-bas li {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /* .onglet-bas li:last-child {
+        margin-right: 0;
+    }
+     */
+    .onglet-bas li a {
+        font-size: 2rem;
+        color: black;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    
+    footer span {
+        margin-left: 0%;
+        
+    }
+
+    #avertissement{
+        display: none;
+    }
+}

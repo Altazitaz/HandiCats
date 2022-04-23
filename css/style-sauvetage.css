@@ -1,0 +1,188 @@
+/*-------------------------------SOUS LEGENDE--------------------------------*/
+
+.sous-legende {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.sous-legende p {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin: 60px 0 35px 0;
+}
+
+
+/*------------------------------------MAIN-------------------------------------*/
+
+.contener-sauvetage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 3% auto;
+}
+
+
+/*------------------------------------TITRE-------------------------------------*/
+
+.titre-sauvetage {
+    margin-top: 13%;
+}
+
+.titre-sauvetage h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    font-weight: 600;
+    margin: 1% auto;
+}
+
+.image-animal {
+    width: 30%;
+}
+
+.image-animal img {
+    width: 100%;
+}
+
+.info {
+    display: inline-block;
+    width: 50%;
+}
+
+.info h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.info p {
+    text-align: left;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 300;
+    margin-top: 2%;
+}
+
+
+/*--------------------------------Rose---------------------------------*/
+
+.rose-fond {
+    border: 1px solid transparent;
+    background: transparent url(../img/image-fond/banniere-rose.png) top center no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+
+/*---------------------------Aly------------------------------*/
+
+.aly-fond {
+    border: 1px solid transparent;
+    background: transparent url(../img/image-fond/banniere-aly.png) top center no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+
+/*---------------------------youpi----------------------------*/
+
+.trait {
+    background: top center no-repeat;
+    width: 70%;
+    background-size: 100% 100%;
+    z-index: -1;
+    margin: 0 auto;
+}
+
+.trait img{
+    width: 100%;
+}
+
+
+/*---------------------------skippy-------------------------*/
+
+.skippy-fond {
+    border: 1px solid transparent;
+    background: transparent url(../img/image-fond/banniere-skippy.png) top center no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+
+/*-------------------------------RESPONSIVE--------------------------------*/
+
+/*-----------------------------------PHONE---------------------------------*/
+
+@media screen and (min-width:300px) and (max-width:968px) {
+    #inverse {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #normal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info {
+        width: 95%;
+        padding: 3% 3%;
+    }
+    .info h2 {
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    .image-animal{
+        width:90% 
+
+    }
+
+    .image-animal img{
+        width:100% 
+
+    }
+
+    .rose-fond, .skippy-fond{
+           
+        background: #ede0f3; /* Old Browsers */
+        background: -webkit-linear-gradient(left,#ede0f3,#f9f5fb); /*Safari 5.1-6*/
+        background: -o-linear-gradient(left,#ede0f3,#f9f5fb); /*Opera 11.1-12*/
+        background: -moz-linear-gradient(left,#ede0f3,#f9f5fb); /*Fx 3.6-15*/
+        background: linear-gradient(to right, #ede0f3, #f9f5fb); /*Standard*/
+        border: 5px solid #e8d6f1;
+        width: 100%;
+        background-size: 100% 100%;
+        z-index: -1;
+        margin-top:10%;
+    
+
+    }
+
+    .aly-fond{
+        background: #ede0f3; /* Old Browsers */
+        background: -webkit-linear-gradient(right,#ede0f3,#f9f5fb); /*Safari 5.1-6*/
+        background: -o-linear-gradient(right,#ede0f3,#f9f5fb); /*Opera 11.1-12*/
+        background: -moz-linear-gradient(right,#ede0f3,#f9f5fb); /*Fx 3.6-15*/
+        background: linear-gradient(to left, #ede0f3, #f9f5fb); /*Standard*/
+        border: 5px solid #e8d6f1;
+        width: 100%;
+        background-size: 100% 100%;
+        z-index: -1;
+        margin-top:10%;
+    }
+
+}

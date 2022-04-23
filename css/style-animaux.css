@@ -1,0 +1,582 @@
+/*-------------------------------SOUS LEGENDE--------------------------------*/
+
+.sous-legende {
+    width: 70%;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin: 5% auto;
+}
+
+
+/*------------------------------------MAIN-----------------------------------*/
+
+.groupe-icone-autorisation-haut {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.groupe-icone-autorisation-bas {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.icone-autorisation {
+    width: 30%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+
+.icone-autorisation img {
+    max-width: 50px;
+}
+
+.icone-autorisation p {
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 300;
+    font-style: italic;
+    text-align: left;
+    padding: 2%;
+}
+
+.contener-animal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 6% 0;
+}
+
+.icone-animal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5%;
+    max-width: 15%;
+}
+
+.icone-animal img {
+    width: 100%;
+}
+
+table {
+    width: 40%;
+    padding-top: 2%;
+}
+
+.colonne-animal {
+    vertical-align: middle;
+}
+
+.colonne-animal img {
+    width: 100%;
+    display: table-cell;
+}
+
+.info {
+    display: inline-block;
+    width: 50%;
+}
+
+.info h2 {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.info p {
+    text-align: left;
+    font-size: 2rem;
+    color: black;
+    font-weight: 300;
+}
+
+.resume h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.resume p {
+    text-align: left;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 300;
+    padding-top: 2%;
+}
+
+.image-animal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+}
+
+.image-animal img {
+    width: 100%;
+}
+
+.inverse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+/*--------------------------------FOND ANIMAUX-------------------------------*/
+
+
+/*------------------------------------DAIKO----------------------------------*/
+
+.daiko-fond {
+    border: 1px solid transparent;
+    background: transparent url(../img/image-fond/fond-daiko.png) top center no-repeat;
+    width: 100%;
+    /* height: 120%; */
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+
+/*------------------------------------MAKOUCHA-------------------------------*/
+
+.makoucha-fond {
+    border: 1px solid transparent;
+    background: transparent url(../img/image-fond/fond-makoucha.png) top center no-repeat;
+    width: 100%;
+    /* height: 120%; */
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+
+/*------------------------------------AINA-----------------------------------*/
+
+.aina-fond {
+    border: 1px solid transparent;
+    background: transparent url(../img/image-fond/fond-aina.png) top center no-repeat;
+    width: 100%;
+    /* height: 120%; */
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+
+/*-------------------------------------FYNH-----------------------------*/
+
+.fyhn-fond {
+    border: 1px solid transparent;
+    background: transparent url(../img/image-fond/banniere-fyhn.png) top center no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+
+/*-----------------------------------CHOCOLATE----------------------------*/
+
+.chocolate-fond {
+    border: 1px solid transparent;
+    background: transparent url(../img/image-fond/banniere-chocolate.png) top center no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+
+/*-----------------------------------LIGHT BOX----------------------------*/
+
+
+/*------------------------------------overlay----------------------*/
+
+.lb-overlay a.lb-close {
+    z-index: 1001;
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    overflow: hidden;
+    margin-left: -25px;
+    /* filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+    -webkit-transition: opacity 0.3s linear 1.2s;
+    -moz-transition: opacity 0.3s linear 1.2s;
+    -o-transition: opacity 0.3s linear 1.2s;
+    -ms-transition: opacity 0.3s linear 1.2s;
+    transition: opacity 0.3s linear 1.2s; */
+}
+
+.lb-overlay:target a.lb-close,
+.lb-overlay:target>div {
+    opacity: 1;
+    filter: alpha(opacity=99);
+    /* internet explorer */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+    /*IE8*/
+}
+
+.lb-overlay {
+    width: 0;
+    height: 0;
+    position: fixed;
+    overflow: hidden;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.9)
+}
+
+.lb-overlay img {
+    width: 30%;
+    /* padding-left: 35%;
+    padding-top: 5%; */
+    padding: 6% 0;
+    margin: 0 auto;
+}
+
+.lb-overlay:target {
+    width: 100%;
+    height: 100%;
+    padding: 1% 0;
+}
+
+.lb-overlay:target img {
+    -webkit-animation: fadeInScale 0.5s ease-in-out;
+    -moz-animation: fadeInScale 0.5s ease-in-out;
+    -o-animation: fadeInScale 0.5s ease-in-out;
+    -ms-animation: fadeInScale 0.5s ease-in-out;
+    animation: fadeInScale 0.5s ease-in-out;
+}
+
+.lb-prev,
+.lb-next {
+    text-indent: -9000px;
+    /* position: absolute;  */
+    width: 24px;
+    height: 25px;
+}
+
+.lb-prev:hover,
+.lb-next:hover {
+    opacity: 1;
+}
+
+.lb-prev {
+    width: 70px;
+    color: #fff;
+    padding: 0.5% 1%;
+    border: 3px solid red;
+}
+
+.lb-next {
+    width: 70px;
+    color: #fff;
+    padding: 0.5% 1%;
+    border: 3px solid red;
+    ;
+}
+
+
+/*---------------------------ANIMATION oVERLAY-----------------------*/
+
+@-webkit-keyframes fadeInScale {
+    0% {
+        -webkit-transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInScale {
+    0% {
+        -moz-transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInScale {
+    0% {
+        -o-transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        -o-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeInScale {
+    0% {
+        -ms-transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        -ms-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInScale {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/*-------------------------------RESPONSIVE--------------------------------*/
+
+@media screen and (min-width:1100px) and (max-width:1400px) {
+    .groupe-icone-autorisation-haut,
+    .groupe-icone-autorisation-bas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding-top: 2%;
+    }
+    .contener-animal {
+        width: 80%;
+    }
+    .image-animal {
+        width: 50%;
+    }
+    .image-animal img {
+        width: 60%;
+    }
+    .info {
+        width: 40%;
+    }
+
+    .lb-overlay:target {
+        width: 100%;
+        height: 100%;
+        padding: 5% 0;
+        margin: 0 auto;
+    }
+
+    .lb-overlay img {
+        width: 35%;
+        padding: 10%;
+        margin: 0 auto;
+    } 
+}
+
+
+/*------------------------------TABLET-------------------------------*/
+
+@media screen and (min-width:968px) and (max-width:1100px) {
+    .contener-animal {
+        width: 90%
+    }
+
+    .sous-legende {
+        width: 70%;
+        font-size: 1.8rem;
+        color: black;
+        font-weight: 300;
+        font-style: italic;
+        text-align: center;
+        margin: 9% auto;
+    }
+    
+    .icone-autorisation {
+        width: 90%;
+        padding-top: 2%;
+    }
+    .groupe-icone-autorisation-haut,
+    .groupe-icone-autorisation-bas {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding-left: 6%;
+    }
+    .icone-responsive {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .colonne-animal {
+        display: inline-block;
+        width: 80%;
+        padding: 0 3%;
+    }
+    .info {
+        width: 60%;
+    }
+    .resume {
+        padding: 5%;
+    }
+    .icone-animal {
+        max-width: 20%;
+    }
+
+    .lb-overlay:target {
+        width: 100%;
+        height: 100%;
+        padding: 5% 0;
+        margin: 0 auto;
+    }
+
+    .lb-overlay img {
+        width: 50%;
+        padding: 10%;
+        margin: 0 auto;
+    } 
+}
+
+/*--------------------------------PHONE------------------------------*/
+
+@media screen and (min-width:320px) and (max-width:968px) {
+    .contener-animal {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sous-legende {
+        width: 70%;
+        font-size: 1.2rem;
+        color: black;
+        font-weight: 300;
+        font-style: italic;
+        text-align: center;
+        margin: 8% auto;
+    }
+    
+    .groupe-icone-autorisation-haut,
+    .groupe-icone-autorisation-bas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 16%;
+    }
+    .icone-autorisation {
+        width: 100%;
+    }
+    table {
+        width: 100%;
+    }
+    .colonne-animal img {
+        width: 100%;
+        
+    }
+    /* #melisse .colonne-animal,
+    #tagada .colonne-animal,
+    #maestro .colonne-animal,
+    #skippy .colonne-animal,
+    #soren .colonne-animal,
+    #chuck .colonne-animal,
+    #po .colonne-animal,
+    #makoucha .colonne-animal,
+    #aina .colonne-animal,
+    #elektra .colonne-animal,
+    #yao .colonne-animal,
+    #maohi .colonne-animal, */
+    .colonne-animal {
+        display: inline-block;
+        width: 100%;
+        justify-content: center;
+    }
+    .inverse {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .info {
+        width: 95%;
+        padding: 5% 3%;
+    }
+    .info h2 {
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .resume{
+        padding-top:10%;
+    }
+    .resume h2 {
+        text-align: center;
+        
+    }
+    .icone-animal {
+        max-width: 25%;
+        align-items: center;
+    }
+
+    .daiko-fond, .aina-fond, .fyhn-fond{
+        
+        background: #ede0f3; /* Old Browsers */
+        background: -webkit-linear-gradient(left,#ede0f3,#f9f5fb); /*Safari 5.1-6*/
+        background: -o-linear-gradient(left,#ede0f3,#f9f5fb); /*Opera 11.1-12*/
+        background: -moz-linear-gradient(left,#ede0f3,#f9f5fb); /*Fx 3.6-15*/
+        background: linear-gradient(to right, #ede0f3, #f9f5fb); /*Standard*/
+        border: 5px solid #e8d6f1;
+        width: 100%;
+        background-size: 100% 100%;
+        z-index: -1;
+        margin-top:30%;
+    }
+
+    .makoucha-fond, .chocolate-fond{
+        
+        background: #ede0f3; /* Old Browsers */
+        background: -webkit-linear-gradient(right,#ede0f3,#f9f5fb); /*Safari 5.1-6*/
+        background: -o-linear-gradient(right,#ede0f3,#f9f5fb); /*Opera 11.1-12*/
+        background: -moz-linear-gradient(right,#ede0f3,#f9f5fb); /*Fx 3.6-15*/
+        background: linear-gradient(to left, #ede0f3, #f9f5fb); /*Standard*/
+        border: 5px solid #e8d6f1;
+        width: 100%;
+        background-size: 100% 100%;
+        z-index: -1;
+        margin-top:30%;
+
+    }
+
+    
+
+    .lb-overlay {
+        display: none;
+    }
+
+   
+
+
+}
