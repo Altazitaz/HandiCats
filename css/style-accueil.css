@@ -1,0 +1,97 @@
+
+/*-------------------------------ASSOCIATION--------------------------------*/
+.background{
+    width: 6%;
+    height: 115vh;
+    position: relative;
+    background-color: #BB91B9;
+    left: 350px;
+    z-index: -1000;
+}
+.contener {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.asso{
+    position: absolute;
+    top: 1150px;
+    left: 215px;
+
+}
+.contenerImg{
+    width: 40%;
+}
+.contener article {
+    width: 40%;
+    text-align: left;
+}
+.contener p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding-top: 5%;
+}
+.contenerEquipe{
+    width: 100%;
+    height: 110vh;
+    background-image: url(../assets/img/accueil/BgSirius.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.team{
+    padding: 3% 10%;
+    position: absolute;
+    top: 15%;
+    background-color: #ffff;
+}
+
+
+
+/*-------------------------------EVENEMENT--------------------------------*/
+.contenerActivity{
+    margin-top: 5%;
+}
+.contenerActivity hr{
+    width: 5%;
+} 
+
+.activity{
+    padding-top: 5%;
+}
+.activity article{
+    width: 22%;
+    background-color: rgba(201, 160, 220, 0.3);
+    border-radius: 15px;
+    padding: 2%;
+    padding-top: 3%;
+    min-height: 55vh;
+}
+.activity article h3{
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.event {
+    color: blue;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.activity button{
+    float: right;
+    width: 60%;
+    
+}
+
+
+
+
+
+
