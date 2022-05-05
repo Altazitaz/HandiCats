@@ -1,112 +1,31 @@
 /*----------------------------BANDE DON-----------------------------*/
-
-.don-banniere {
-     /* border: 1px solid blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;  */
-    margin-top:4%;
-}
-
 .fond-don {
-    /*    border: 2px solid cornflowerblue;*/
-    background: transparent url(../img/image-fond/fond-don.png) top center no-repeat;
-    height: 400px;
+    margin-top:8%;
+    background: transparent url(../assets/img/accueil/abuYago.png) top center no-repeat;
+    height: 38vh;
     width: 100%;
     background-size: cover;
     z-index: -1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center; 
+   
 }
 
-.don {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+.fond-don p {
+    font-size: 7rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Baloo 2', cursive;
+    src: url("../fonts/Baloo2-Bold.ttf") format("ttf");
+    text-shadow: 1px 1px 2px #000;
 }
 
-.don p {
-    font-size: 2.5rem;
-    font-weight: 600;
+.boutonDon{
+    width: 12%;
+    margin-top: 2%;
 }
-
-
-/*-------------------------------bouton--------------------------------*/
-
-.bouton-association, .bouton-animaux, .bouton-boutique, .bouton-don {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2%;
-}
-
-.bouton-association>.icone-bouton, .bouton-boutique>.icone-bouton{
-    background-color: #A10684;
-    border-radius: 5px;
-    color: white;
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 0.5%;
-    margin-right: 1%;
-}
-
-.bouton-animaux>.icone-bouton{
-    background-color: #A10684;
-    border-radius: 5px;
-    color: white;
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 0.4%;
-    margin-top: 1%;
-    
-}
-
-.bouton-don>.icone-bouton{
-    background-color: #A10684;
-    border-radius: 5px;
-    color: white;
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 0.4%;
-    
-}
-
-.icone-bouton a {
-    color: white;
-    text-decoration: none;
-}
-
-
-/*-------------------------------DON PAR VIREMENT--------------------------------*/
-
-.contener-virement {
-    width: 70%;
-    /*	border: 1px solid red;*/
-    margin: 0 auto;
-}
-
-.contener-virement h1 {
-    margin-top: 5%;
-    font-size: 1.8rem;
-    color: black;
-    font-weight: 600;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.contener-virement p {
-    font-size: 1.6rem;
-    color: black;
-    font-weight: 600;
-    text-align: center;
-}
-
 
 /*-------------------------------RESPONSIVE--------------------------------*/
 
@@ -127,51 +46,7 @@
         
     }
 
-    /*-------------------------------bouton--------------------------------*/
-
-    .bouton-association, .bouton-animaux, .bouton-boutique, .bouton-don {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding-top: 2%;
-    }
-
-    .bouton-association>.icone-bouton, .bouton-boutique>.icone-bouton{
-        background-color: #A10684;
-        border-radius: 5px;
-        color: white;
-        font-size: 2rem;
-        font-weight: 600;
-        padding: 0.8%;
-        margin-right: 1%;
-    }
-
-    .bouton-animaux>.icone-bouton{
-        background-color: #A10684;
-        border-radius: 5px;
-        color: white;
-        font-size: 2rem;
-        font-weight: 600;
-        padding: 0.6%;
-        margin-top: 1%;
-        
-    }
-
-    .bouton-don>.icone-bouton{
-        background-color: #A10684;
-        border-radius: 5px;
-        color: white;
-        font-size: 2rem;
-        font-weight: 600;
-        padding: 0.6%;
-        
-    }
-
-    .icone-bouton a {
-        color: white;
-        text-decoration: none;
-    }
+    
 }
 
 /*-----------------------------MOBILE-------------------------------*/
@@ -189,7 +64,6 @@
         flex-direction: column;
         justify-content: center;
         margin-top:20%; 
-        
     }
 
     .don p {

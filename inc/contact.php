@@ -129,40 +129,43 @@ if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir
 ?>
 
 
-	<section id="partie-contact" class="contener-contact">
+	<section id="partie-contact" class="contenerContact">
 	<?php echo $affichage; ?>
-		<h1>Contact</h1>
-
-		<hr class="trait-contact">
+		<h2>Contactez-nous</h2>
+		<hr>
 
 		<div class="sous-legende">
-			<p>N’hésitez pas à nous contacter pour nous demander de plus amples informations via ce formulaire. Nous mettrons tout en oeuvre pour y répondre.</p>
+			<p style="text-align: center;">N’hésitez pas à nous contacter pour nous demander de plus amples informations via ce formulaire. Nous mettrons tout en oeuvre pour y répondre.</p>
 		</div>
 
 		<form method="post" action="#partie-contact">
-			<div class="ligne-form-1">
-				<label for="nom">Nom: </label>
-				<input type="text" name="nom" id="nom" placeholder="Nom..." value="<?php if(isset($_POST['nom'])){ echo $_POST['nom']; } else { null;}?>">
-				<label for="prenom">Prénom: </label>
-				<input type="text" name="prenom" id="prenom" placeholder="Prénom..." value="<?php if(isset($_POST['prenom'])){ echo $_POST['prenom']; } else { null;}?>">
-				<label for="mail">Adresse mail: </label>
-				<input type="text" name="mail" id="mail" placeholder="Adresse mail..." value="<?php if(isset($_POST['mail'])){ echo $_POST['mail']; } else { null;}?>">
-			</div>
+			<section class="columnFormulaire">
+				<div class="columnForm1">
+					<label for="nom">Nom : </label>
+					<input type="text" name="nom" id="nom" placeholder="Votre nom ..." value="<?php if(isset($_POST['nom'])){ echo $_POST['nom']; } else { null;}?>">
+					<label for="prenom">Prénom : </label>
+					<input type="text" name="prenom" id="prenom" placeholder="Votre  prénom ..." value="<?php if(isset($_POST['prenom'])){ echo $_POST['prenom']; } else { null;}?>">
+					<label for="mail">Adresse mail : </label>
+					<input type="text" name="mail" id="mail" placeholder="Votre e-mail ..." value="<?php if(isset($_POST['mail'])){ echo $_POST['mail']; } else { null;}?>">
+				</div>
 
-			<div class="ligne-form-2">
-				<label for="objet">Objet du message:</label>
-				<select name="objet">
-					<option value="adoption">Adoption</option>
-					<option value="famille">Devenir famille d'accueil</option>
-					<option value="parrainage">Parrainer un animal</option>
-					<option value="don">Faire un don</option>
-					<option value="boutique">Boutique</option>
-					<option value="autre">Autre</option>
-				</select>
-			</div>
-
-			<label for="Com">Commentaires</label>
-			<textarea id="Com" name="com" placeholder="Votre message..."><?php if(isset($_POST['com'])){ echo $_POST['com']; } else { null;}?></textarea>
+				<div class="columnForm2">
+					<label for="objet">Objet du message:</label>
+					<select name="objet">
+						<option value="adoption">Adoption</option>
+						<option value="famille">Devenir famille d'accueil</option>
+						<option value="parrainage">Parrainer un animal</option>
+						<option value="don">Faire un don</option>
+						<option value="boutique">Boutique</option>
+						<option value="autre">Autre</option>
+					</select>
+					
+					<div>	
+						<label for="Com">Commentaires</label>
+						<textarea id="Com" name="com" placeholder="Votre message ..."><?php if(isset($_POST['com'])){ echo $_POST['com']; } else { null;}?></textarea>
+					</div>	
+				</div>
+			</section>	
 
 			<div class="validation">
 				<input type="submit" name="validation" value="Envoyer">
@@ -170,8 +173,6 @@ if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir
 			</div>
 		</form>
 
-		<div class="facebook">
-			<a href="https://www.facebook.com/associationhandicats/" target="_blank"><img src="../img/icone/facebook.png" alt="icone" title="facebook de l'association"></a>
-		</div>
+		
 	</section>
 

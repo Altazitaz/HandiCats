@@ -1,6 +1,6 @@
 /*----------------------------CONTACT-----------------------------*/
 
-.contener-contact {
+.contenerContact {
     width: 70%;
     margin: 0 auto;
     margin-top: 5%;
@@ -20,74 +20,91 @@
     color: white;
 }
 
-.contener-contact h1 {
-    font-size: 3rem;
-    color: black;
-    font-weight: 600;
-    text-align: center;
-    margin-right: 1%;
-    margin-top: 30px;
-}
-
-.trait-contact {
-    width: 100%;
-    background-color: #A10684;
-    height: 2.5px;
-    margin-top: 15px;
-}
-
 form {
-    width: 80%;
-    margin: 10% auto;
-    height: 320px;
+    width: 100%;
+    margin: 4% auto;
 }
 
-.ligne-form-1 {
+.columnFormulaire{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 5%;
+    justify-content: space-around;
+    align-items: center;
 }
-
 label {
     color: #677179;
     font-weight: 600;
+    margin: 6% 0 1% 0;
+    font-size: 1.8rem;
 }
 
-.ligne-form-1 input {
-    border: 1px solid #C9A0DC;
+input {
+    border: 2px solid #C9A0DC;
     border-radius: 5px;
-    width: 25%;
-    height: 20px;
-    font-size: 0.8em;
-    font-weight: 300;
-    font-style: italic;
+    width: 100%;
+    height: 3vh;
+   
 }
 
-.ligne-form-2 {
-    margin-bottom: 5%;
+::placeholder{
+    color: #677179;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    padding: 2% 0 0 2%;
+
+}
+
+.columnForm1,
+.columnForm2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.columnForm1{
+    width: 25%;
+}
+
+.columnForm2 {
+    width: 50%;
+}
+
+.columnForm2 select{
+    width: 30%;
+    height: 3.5vh;
+    border: 2px solid #C9A0DC;
+    border-radius: 5px;
+    padding-left: 2%;
+    margin-bottom: 2%;
 }
 
 #Com {
     width: 100%;
-    height: 150px;
-    border: 1px solid #C9A0DC;
+    height: 12vh;
+    border: 2px solid #C9A0DC;
     border-radius: 5px;
-    font-size: 1em;
-    font-weight: 300;
-    font-style: italic;
     resize: none;
 }
 
 .validation {
-    text-align: left;
+    text-align: center;
     margin-top: 50px;
 }
 
 .validation input{
-    text-align: center; 
-    font-size: 0.9em;
-    font-weight: 300;       
+    width: 20%;
+    background-color: #A10684;
+    border-radius: 10px;
+    height: 5vh;
+    border: none;
+    margin: 2% 2%;
+    box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
+	-webkit-box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
+	-moz-box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;       
 
 }
 

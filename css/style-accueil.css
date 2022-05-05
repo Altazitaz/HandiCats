@@ -25,16 +25,17 @@
 }
 .contenerImg{
     width: 40%;
+    border-radius: 15px;
 }
 .contener article {
     width: 40%;
     text-align: left;
 }
-.contener p {
+/* .contener p {
     font-size: 1.8rem;
     font-weight: 300;
     padding-top: 5%;
-}
+} */
 .contenerEquipe{
     width: 100%;
     height: 110vh;
@@ -51,14 +52,13 @@
     background-color: #ffff;
 }
 
-
-
 /*-------------------------------EVENEMENT--------------------------------*/
 .contenerActivity{
     margin-top: 5%;
 }
-.contenerActivity hr{
-    width: 5%;
+.contenerActivity hr,
+.contenerContact hr{
+    width: 4%;
 } 
 
 .activity{

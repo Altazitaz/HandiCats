@@ -4,7 +4,7 @@
 	include('../inc/header.php');
 ?>
 
-    <main>
+   
         
     <!-- *************************** ASSOCIATION ********************** -->
     
@@ -79,7 +79,8 @@
                     Venez découvrir de nombreux produits faits mains pour la plupart (Coussins, bouillottes, cartes illustrées..).
                     Envie d’une jolie bague, de décorer votre canapé avec des coussins en forme de chat, ou encore d’offrir un jouet à votre petite boule de poil, alors rendez-sur la <span>Boutique de l’Association</span>.
                     <br><br>
-                    Nous vous expliquerons et vous accompagnerons dans toutes les démarches. </p><br><br><br>
+                    Nous vous expliquerons et vous accompagnerons dans toutes les démarches.<br> Alors n'hésitez pas à nous rendre visite pour vous faire plaisir à vous et/ou vos amis.</p><br>
+                    <br>
                     <a href="https://www.facebook.com/boutique.handicats" target="_blank"><button>Découvrir </button></a>
                 </article>
 
@@ -90,11 +91,30 @@
                     L’Association Handi’Cats a été mis à l’honneur lors de l’émission du 25 janvier 2015.
                     La fondation <span>30 Millions d’amis</span> a pris la direction de Beaumont-le-Roger, dans le département de l’Eure afin de rencontrer Alysson et ses protégés, mais également les personnes qui l’entourent et l’aident dans ses nombreuses démarches.
                     <br><br>
-                    Retrouvez la vidéo <a href="https://www.youtube.com/watch?v=gYEQJtBQZJo" target="_blank" class="event">-ici-</a>.</p><br><br>
+                    Si vous souhaitez découvrir le reportage ou le revoir, il est disponible <a href="https://www.youtube.com/watch?v=gYEQJtBQZJo" target="_blank" class="event">-ici-</a>.</p><br><br><br>
                     <a href="https://www.facebook.com/boutique.handicats" target="_blank"><button>Découvrir </button></a>
                 </article>
             </section> 
         </div>
+
+<!-- ******************************BANDE DON**************************- -->
+	    <?php include('../inc/bande-don.php');?>
+
+<!-- *******************************CONTACT***************************- -->
+	    <?php include('../inc/contact.php');?>
+
+
+
+        <article >
+                    <h3>Ils parlent de nous</h3><br>
+                    <p>Passage de l'association dans l'émission “30 millions d'amis” !
+                    <br><br>
+                    L’Association Handi’Cats a été mis à l’honneur lors de l’émission du 25 janvier 2015.
+                    La fondation <span>30 Millions d’amis</span> a pris la direction de Beaumont-le-Roger, dans le département de l’Eure afin de rencontrer Alysson et ses protégés, mais également les personnes qui l’entourent et l’aident dans ses nombreuses démarches.
+                    <br><br>
+                    Retrouvez la vidéo <a href="https://www.youtube.com/watch?v=gYEQJtBQZJo" target="_blank" class="event">-ici-</a>.</p><br><br>
+                    <a href="https://www.facebook.com/boutique.handicats" target="_blank"><button>Découvrir </button></a>
+                </article>
 
                 <!-- <article>
                     <h2>Faire un Don</h2>

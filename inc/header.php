@@ -59,7 +59,7 @@
 			</div>
 		</nav>
 	</header>
-	
+	<main>
 		<section class="contenerVideo">
 			<video loop autoplay muted>
 				<source src="../assets/cat.mp4" type="video/mp4" >

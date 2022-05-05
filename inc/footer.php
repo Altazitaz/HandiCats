@@ -22,6 +22,9 @@
 				<br>
 				<span> | &copy; <?php echo date('Y'); ?> | Tous droits réservé.</span>
 			</section>
+			<div class="facebook">
+			<a href="https://www.facebook.com/associationhandicats/" target="_blank"><img src="../img/icone/facebook.png" alt="icone" title="facebook de l'association"></a>
+		</div>
 		</footer>
 
 		<div id="avertissement">
