@@ -102,19 +102,12 @@
 
 <!-- *******************************CONTACT***************************- -->
 	    <?php include('../inc/contact.php');?>
+<!-- ****************************FOOTER****************************- -->
+<?php include('../inc/footer.php');?>        
 
 
 
-        <article >
-                    <h3>Ils parlent de nous</h3><br>
-                    <p>Passage de l'association dans l'émission “30 millions d'amis” !
-                    <br><br>
-                    L’Association Handi’Cats a été mis à l’honneur lors de l’émission du 25 janvier 2015.
-                    La fondation <span>30 Millions d’amis</span> a pris la direction de Beaumont-le-Roger, dans le département de l’Eure afin de rencontrer Alysson et ses protégés, mais également les personnes qui l’entourent et l’aident dans ses nombreuses démarches.
-                    <br><br>
-                    Retrouvez la vidéo <a href="https://www.youtube.com/watch?v=gYEQJtBQZJo" target="_blank" class="event">-ici-</a>.</p><br><br>
-                    <a href="https://www.facebook.com/boutique.handicats" target="_blank"><button>Découvrir </button></a>
-                </article>
+        
 
                 <!-- <article>
                     <h2>Faire un Don</h2>

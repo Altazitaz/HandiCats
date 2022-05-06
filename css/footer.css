@@ -1,49 +1,46 @@
 /*----------------------------FOOTER----------------------------*/
-
-.contener-footer, .contener-plan {
-    width: 70%;
-    margin: 0 auto;
-}
-
 footer {
     background-color: #e1cbec;
-    padding: 10px;
-    margin-top: 80px;
-    padding-bottom: 48px;
-    width: 100%
-}
-
-.sous-legende2 {
-    font-size: 2rem;
-    color: #A10684;
-    font-weight: 600;
-    font-style: italic;
-    text-align: center;
-}
-
-.adresse {
-    margin-bottom: 25px;
-    font-size: 1.6rem;
-    color: black;
-    font-weight: 300;
-    text-decoration: none;
-    text-align: center;
-}
-
-.patte {
-    width: 6%;
-    /* height: 50px; */
-    margin: 0 auto;
-    margin-bottom: 25px;
-}
-
-.patte img {
+    padding-bottom: 4vh;
     width: 100%;
 }
 
+.contener-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.sous-legende2 p{
+    font-size: 2rem;
+    color: #A10684;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.test{
+    margin: 1% auto;
+    width: 36%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.test span{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
 .onglet-bas {
-    margin: 0 auto;
-    width: 40.5%;
+    width: 70%;
+    text-align: center;
+}
+
+.contener-footer p{
+    padding: 0;
 }
 
 .onglet-bas li {
@@ -57,22 +54,27 @@ footer {
 }
 
 .onglet-bas li a {
-    font-size: 2rem;
+    margin-top: 3%;
+    font-size: 1.5rem;
     color: black;
-    font-weight: 300;
+    font-weight: 600;
     text-decoration: none;
 }
 
-footer span {
-    margin-left: 40%;
-    
+.facebook {
+    width: 4%;
+}
+
+.facebook img {
+    width: 100%;
+    border-radius: 0;
 }
 
 #avertissement {
     position: fixed;
     bottom: 0;
+    right: 0;
     background: white;
-    /* padding: 10px; */
     display: table;
     width: 100%;
 }
@@ -83,15 +85,16 @@ footer span {
     overflow: hidden;
     position: relative;
     table-layout: fixed;
+    padding: 0;
 }
 
 #avertissement span {
     position: relative;
-    -webkit-animation: linear marqueelike 12s 3;
-    -moz-animation: linear marqueelike 12s 3;
-    -o-animation: linear marqueelike 12s 3;
-    -ms-animation: linear marqueelike 12s 3;
-    animation: linear marqueelike 12s 3;
+    -webkit-animation: linear marqueelike 12s 4;
+    -moz-animation: linear marqueelike 12s 4;
+    -o-animation: linear marqueelike 12s 4;
+    -ms-animation: linear marqueelike 12s 4;
+    animation: linear marqueelike 12s 4;
     display: block;
     margin-left: -100%;
     padding-bottom: 0.5%;
