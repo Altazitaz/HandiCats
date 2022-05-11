@@ -44,7 +44,7 @@
                     Contactez-nous afin de découvrir les missions qui vous attendent au contact de nos protégés, ainsi que les différents besoin de l’association.
                     <br><br>
                     <span>Vous souhaitez avoir des informations précises ou avez des questions ?</span>
-                    Contactez-nous en passant par la rubrique « Contact ».
+                    Contactez-nous en passant par la rubrique <a href="#partie-contact"><span>« Contact ».</span></a>
                     </p>
                 </article>
                 <div class="contenerImg">
@@ -57,10 +57,10 @@
  <!-- *************************** EVENEMENT ********************** -->
         
         <div id="partie-activity" class="contenerActivity">
-            <h2>Intégrer l’Association</h2>
+            <h2>Les événements et activités</h2>
             <hr>
             <section class="contener activity" >
-                <article>
+                <article class="followUs">
                     <h3>Suivez-nous</h3><br>
                     <p>Des événements et des activités s’organisent au sein d’ Handi’Cats afin de se retrouver, de s’entre-aider et de nous rencontrer.
                     <br><br>
@@ -92,7 +92,7 @@
                     La fondation <span>30 Millions d’amis</span> a pris la direction de Beaumont-le-Roger, dans le département de l’Eure afin de rencontrer Alysson et ses protégés, mais également les personnes qui l’entourent et l’aident dans ses nombreuses démarches.
                     <br><br>
                     Si vous souhaitez découvrir le reportage ou le revoir, il est disponible <a href="https://www.youtube.com/watch?v=gYEQJtBQZJo" target="_blank" class="event">-ici-</a>.</p><br><br><br>
-                    <a href="https://www.facebook.com/boutique.handicats" target="_blank"><button>Découvrir </button></a>
+                    <a href="https://www.facebook.com/boutique.handicats" target="_blank"><button>Découvrir</button></a>
                 </article>
             </section> 
         </div>

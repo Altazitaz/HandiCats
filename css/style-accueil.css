@@ -31,14 +31,10 @@
     width: 40%;
     text-align: left;
 }
-/* .contener p {
-    font-size: 1.8rem;
-    font-weight: 300;
-    padding-top: 5%;
-} */
+
 .contenerEquipe{
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     background-image: url(../assets/img/accueil/BgSirius.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -89,6 +85,81 @@
     width: 60%;
     
 }
+
+/*-------------------------------RESPONSIVE--------------------------------*/
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    body{
+        background-color: #FF5E4D;
+    }
+    .background {
+        width: 8%;
+        left: 168px;
+        
+    }
+    .contener{
+        width: 90%;
+    }
+    .asso{
+        left: 60px;
+        top: 1170px;
+    }
+
+    .contenerEquipe{
+        background-image: url(../assets/img/accueil/sirius2.png);
+    }
+    .team{
+        right: -40px;
+    }
+    .activity article {
+        width: 28%;
+        min-height: 62vh;
+    }
+
+    .followUs button{
+        margin-top: 9%;
+    }
+
+}    
+
+/*------------------------------TABLET-------------------------------*/
+
+@media screen and (min-width:968px) and (max-width:1200px) {
+
+    body{
+        background-color: yellow;
+    }
+
+    .background {
+        width: 10%;
+        left: 168px;
+        
+    }
+    .asso{
+        flex-direction: column;
+        left: 2px;
+        top: 835px;
+        width: 100%;
+        margin: 2% auto;
+    
+    }
+
+    .contenerImg{
+        width: 42%;
+    }
+
+    .contener article{
+        width: 45%;
+    }
+
+    .contenerEquipe{
+        background-image: url(../assets/img/accueil/siriusTablet.png);
+    }
+
+   
+}     
+
+
 
 
 

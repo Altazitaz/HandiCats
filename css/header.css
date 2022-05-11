@@ -238,13 +238,13 @@ section.headerTitle{
 
 /*-------------------------------RESPONSIVE--------------------------------*/
 
-@media screen and (min-width:1100px) and (max-width:1400px) {
+@media screen and (min-width:1200px) and (max-width:1400px) {
     body{
         background-color: #FF5E4D;
     }
 
     .contenerLogo {
-        width: 5%;
+        width: 4%;
     }
 
     .contenerVideo{
@@ -253,143 +253,72 @@ section.headerTitle{
         margin:0;
         position: relative;
     }
+    nav {
+        width: 82%;;
+    }
+    section.headerTitle{
+        width: 40%;
+    }
 }
 
 /*------------------------------TABLET-------------------------------*/
 
-@media screen and (min-width:968px) and (max-width:1100px) {
+@media screen and (min-width:968px) and (max-width:1200px) {
 
-    .contener-logo {
-        width: 100%;
-    }
     body{
         background-color: yellow;
     }
+    .contenerLogo {
+        width: 6%;
+    }
 
-    header {
-        background: url(../img/image-fond/yago-abu.jpg) no-repeat 66% 70%;
-        background-size: cover;
-        position: relative;
-        margin-bottom: 20px;
+    .contenerVideo{
+        width: 105%;
         height: 500px;
     }
 
-    /* .logo {
+    .contenerVideo video{
         width: 100%;
-        top: 40%;
-        left: 52%;
-        transform: translate(-50%, -50%);
-        height: 348px;
-        position: absolute;
+        height: 550px;
     }
 
-
-    .logo img {
-        width: 95%;
-    } */
-
-    .logo{
-        display: none;
-    }
-
-    .logo-mobile{
-        display: block;
-        top: 40%;
-        left: 52%;
-        transform: translate(-50%, -50%);
-        height: 400px;
-        position: absolute;
-        width: 50%;
-
-    }
-
-    .logo-mobile img{
-        width:100%;
-
-    }
     nav {
+        width: 85%;;
         margin: 0 auto;
-        text-align: center;
-        margin-top: 15px;
+        margin-top: 40px;
     }
-
     nav ul {
         margin: 0;
         padding: 0;
         list-style-type: none;
-        text-align: center;
+        text-align: right;
     }
-
+    section.headerTitle{
+        width: 80%;
+        height: 55vh;
+        top: 280px;
+        right:35px;
+    }
+    .headerTitle h1{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .headerTitle h2 {
+        font-size: 2.2em;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .buttonTitle{
+        align-items: center;
+        margin:0;
+    }
     #nav-burger{
         display: none;
     }
+}    
 
-
-    .menu {
-        position: relative;
-    }
-
-    nav li {
-        margin-right: 45px;
-        display: inline-block;
-        padding: 0;
-    }
-
-    nav li:last-child {
-        margin-right: 0;
-    }
-
-    nav li a {
-        display: block;
-        font-size: 2.1rem;
-        color: black;
-        font-weight: 600;
-        text-decoration: none;
-        padding: 0 30px;
-    }
-
-    nav ul li:hover ul {
-        display: block;
-        padding-top: 2%;
-        position: absolute;
-        left: 0%;
-    }
-
-    nav li a:hover {
-        color: #FF5E4D;
-        border-bottom: #FF5E4D 0px solid;
-        opacity: .6;
-        /* border-radius: 2px;
-        border: 2px solid #FF5E4D; */
-    }
-
-    nav li ul {
-        position: absolute;
-    }
-
-    nav ul li ul {
-        display: none;
-    }
-
-    #haut-de-page {
-        width:7%;
-        opacity: .4;
-        margin-left: 92%;
-        position: fixed;
-        z-index: 1000;
-    }
-
-    #haut-de-page img{
-        width: 100%;
-    }
-
-    hr {
-        background-color: #A10684;
-        width: 80%;
-        height: 1.5px;
-        margin-top: 15px;
-    }
-}
+   
 
 
 

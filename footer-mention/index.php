@@ -29,7 +29,10 @@
 
 			<p><a href="http://www.associations.gouv.fr/626-association-loi-1901.html">Source de l'article: "http://www.associations.gouv.fr"</a></p>
 
-			<p>Le site de cette association a été réalisé dans le cadre d'un travail à but non lucratif afin d'aider l'association à se développer. Il a été réalisé par la webdesigner Alexandra Vivet. Son nom de domaine a été acquis le 13 juin 2017 et, est hébergé depuis ce jour-là sur le site OVH.</p>
+			<p>Le site de cette association a été réalisé dans le cadre d'un travail à but non lucratif afin d'aider l'association à se développer. Il a été réalisé par la designer et développeuse Front-End Alexandra Vivet. Son nom de domaine a été acquis le 13 juin 2017 et, est hébergé depuis ce jour-là sur le site OVH.
+			Le site utilise la police Raleway et Baloo, toutes deux importées de Google Font via le lien CSS mais également enregistrées dans les fichiers.
+			</p>
+			<p>Ce site n'enregistre, ni ne stocke aucune information d'ordre personnelle et n'est relié à aucun Back-End, ni base de données. Le réglement lié à la RGPD est donc bien respecté.</p>
 		</article>
 	</section>
 </body>

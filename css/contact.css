@@ -112,24 +112,8 @@ input {
 /*-------------------------------RESPONSIVE--------------------------------*/
 
 @media screen and (min-width:1100px) and (max-width:1400px) {
-    .facebook {
-        width: 5%;
-        margin-top: 15%;
-        margin-left: 10%;
-    }
-
-    .validation {        
-        margin-top: 40px;
-             
-    }
-
-    .validation input{
-        text-align: center;        
-        width:150px;
-        font-size: 0.9em;
-        font-weight: 300;
-        
-
+    .contenerContact {
+        width: 90%;
     }
 
 }
