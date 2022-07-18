@@ -10,6 +10,9 @@
 	<meta property="og:image" content="http://www.handicats.fr/img/image-fond/header-logo.png"/>
 	<meta name="author" lang="fr" content="alexandra vivet">
 	<title><?php echo $titre; ?></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,500,600,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/header.css">
 	<link rel="stylesheet" type="text/css" href="../css/style-<?php echo $page; ?>.css">
