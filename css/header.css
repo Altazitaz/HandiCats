@@ -243,9 +243,9 @@ section.headerTitle{
 /*-------------------------------RESPONSIVE--------------------------------*/
 
 @media screen and (min-width:1200px) and (max-width:1400px) {
-    body{
+    /* body{
         background-color: #FF5E4D;
-    }
+    } */
 
     .contenerLogo {
         width: 4%;
@@ -269,9 +269,9 @@ section.headerTitle{
 
 @media screen and (min-width:968px) and (max-width:1200px) {
 
-    body{
+    /* body{
         background-color: yellow;
-    }
+    } */
     .contenerLogo {
         width: 6%;
     }
@@ -334,9 +334,9 @@ section.headerTitle{
     .contener-logo {
         width: 100%;
     }
-    body{
+    /* body{
         background-color: aqua;
-    }
+    } */
     header {
         background: url(../img/image-fond/yago-abu.jpg) no-repeat 66% 70%;
         background-size: cover;

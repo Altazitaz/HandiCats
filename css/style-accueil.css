@@ -123,9 +123,9 @@ strong{
 /*-------------------------------RESPONSIVE--------------------------------*/
 
 @media screen and (min-width:1200px) and (max-width:1400px) {
-    body{
+    /* body{
         background-color: #FF5E4D;
-    }
+    } */
     .background {
         width: 8%;
         left: 168px;
@@ -160,9 +160,9 @@ strong{
 
 @media screen and (min-width:968px) and (max-width:1200px) {
 
-    body{
+    /* body{
         background-color: yellow;
-    }
+    } */
 
     .background {
         width: 10%;
