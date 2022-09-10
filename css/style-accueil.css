@@ -57,10 +57,12 @@
     width: 4%;
 } 
 
-.activity{
+.activity,
+.don{
     padding-top: 5%;
 }
-.activity article{
+.activity article,
+.don article{
     width: 22%;
     background-color: rgba(201, 160, 220, 0.3);
     border-radius: 15px;
@@ -68,7 +70,13 @@
     padding-top: 3%;
     min-height: 55vh;
 }
-.activity article h3{
+
+.don article{
+    width: 25%;
+    min-height: 50vh;
+}
+.activity article h3,
+.contener article h3{
     font-size: 2.2rem;
     text-align: center;
 }
@@ -80,11 +88,37 @@
     text-decoration: none;
 }
 
-.activity button{
+.activity button,
+.don button{
     float: right;
     width: 60%;
     
 }
+
+/*------------------------------PAGE DON-------------------------------*/
+.contenerDon{
+    margin-top: 15%;
+}
+
+.sous-legende {
+    width: 70%;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin: 2% auto;
+    
+}
+
+strong{
+    font-weight: bold;
+}
+
+.coordonnée{
+    text-align: center;
+}
+
 
 /*-------------------------------RESPONSIVE--------------------------------*/
 

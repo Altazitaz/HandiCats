@@ -134,8 +134,8 @@ if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir
 		<h2>Contactez-nous</h2>
 		<hr>
 
-		<div class="sous-legende">
-			<p style="text-align: center;">N’hésitez pas à nous contacter pour nous demander de plus amples informations via ce formulaire. Nous mettrons tout en oeuvre pour y répondre.</p>
+		<div class="sous-legende contact">
+			<p style="text-align: center">N’hésitez pas à nous contacter pour nous demander de plus amples informations via ce formulaire. Nous mettrons tout en oeuvre pour y répondre.</p>
 		</div>
 
 		<form method="post" action="#partie-contact">

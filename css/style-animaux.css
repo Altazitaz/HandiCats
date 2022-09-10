@@ -11,18 +11,23 @@
     margin-top: 14%;
 }
 
-
-
 /*-------------------------------GALLERY--------------------------------*/
 
 
-.gallery{
+/* section.gallery{
     box-sizing: border-box;
     width: 100%;
     margin: 3% auto;
-    border: 2px solid rgb(0, 68, 255);
+    border: 15px solid rgb(0, 68, 255);
     
-}  
+}   */
+.gridywrap{
+  margin-bottom: 5%;
+}
+.ghost p{
+  min-height: 10px;
+  color: white;
+}
 
 .gridywrap div[class*=gridy] {
     background: #eee;
@@ -231,10 +236,6 @@
   }
   
   
-  
-
-
-
 
 /*-------------------------------RESPONSIVE--------------------------------*/
 

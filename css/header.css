@@ -190,6 +190,7 @@ nav li a {
 nav li a:hover {
     color: #FF5E4D;
     border-bottom: #FF5E4D 1px solid;
+    text-align: center;
     opacity: .6;
     font-weight: 600;
 }

@@ -6,6 +6,10 @@
     margin-top: 5%;
 }
 
+.contenerContact .sous-legende.contact{
+    margin-top: 2%;
+}
+
 .erreur {
     background-color: #A10684;
     padding: 1%;
