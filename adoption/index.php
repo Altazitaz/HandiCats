@@ -16,7 +16,7 @@ include('../inc/header.php');
 			<div class="gridinfo">
 			<h3>Sky</h3>
 			<div class="gridmeta">
-			<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 15/05/21, Européenne bleue non LOOF</p>
+			<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 15/05/2021, Européenne bleue non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, testée FIV/FELV négative, stérilisée, déparasitée int/ext</p>
 			</div>
 			<p class="gridexerpt">Sky est une minette hyper active qui est extrêmement pot de colle. Elle aime avoir de l'attention par des jeux, des carresses et calins. Si vous ne vous occupez pas d'elle, elle grimpera sur vos épaules pour vous le faire comprendre. Elle s'entend avec chiens et chats mais elle pourra être placée toute seule si sa future famille est très présente au domicile et a réellement du temps à lui consacrer. C'est une minette en or qui a beaucoup à apporter.</p>
@@ -30,7 +30,7 @@ include('../inc/header.php');
 			<div class="gridinfo">
 			<h3>Aegon</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 01/09/17, Européen noir et blanc non LOOF</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 01/09/2017, Européen noir et blanc non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, testé FIV/FELV négatif, castré, déparasité int/ext</p>
 			</div>
 			<p class="gridexerpt">Aegon est un petit chat très sage et sociable. Gentil avec tout le monde; il aime la présence de ses congénères. Très joueur il a besoin de la compagnie d'autres chats. Il lui faudra au moins un copain chat sympa dans sa future famille. Il s'entend aussi très bien avec les chiens.</p>
@@ -57,7 +57,7 @@ include('../inc/header.php');
 			<div class="gridinfo">
 			<h3>Mélisse</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 01/04/17, Européen tigrée poil mi-long non LOOF</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 01/04/2017, Européen tigrée poil mi-long non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, testée FIV/FELV négative, stérilisée, déparasitée int/ext</p>
 			</div>
 			<p class="gridexerpt">Mélisse est une adorable chatte, affectueuse, curieuse, joueuse, mais plutôt réservée et sage. Elle cohabite avec d'autres chats dans sa famille d'accueil, mais n'est pas spécialement proche d'eux à part peut-être son frère Sésame ou sa soeur Cayenne. Elle aura besoin d'une alimentation pour cristaux urinaires de calcium à vie, trouvable facilement chez le vétérinaire. </p>
@@ -65,15 +65,15 @@ include('../inc/header.php');
 			</div>
 		</div>
 		<div class="gridy-1 gridyhe-1">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/grootR.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/apisR.jpg)">&nbsp;</div>
 			<div class="gridinfo">
-			<h3>Groot</h3>
+			<h3>Apis</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 20/07/21, Européen marbré marron non LOOF</p>
-				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, testé FIV/FELV négatif, castré, déparasité int/ext</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 25/04/2022, Européen tigré gris non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, déparasité int/ext</p>
 			</div>
-			<p class="gridexerpt">Groot est un explorateur, très curieux et toujours en mouvement, grand copain avec les chats et les chiens avec qui il aime jouer et dormir. Encore un peu craintif, il faudra un peu de patience pour faire de lui un parfait chat de canapé. Groot devra trouver un foyer avec un chat adulte sociable ou alors être adopté en duo avec un autre Handi'cats.</p>
-			<a href="https://www.facebook.com/681342371878793/photos/a.681720511840979/4752584898087833"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<p class="gridexerpt">Apis est un petit chaton craintif au premier abord mais il se détend très vite pour les câlins et le jeu. Le fait d'avoir beaucoup manqué de nourriture l'a rendu très (trop) gourmand, il faudra par la suite surveiller sa prise de poids. A adopter par 2 ou avec au moins un autre chat dans son futur foyer.</p>
+			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/5690012564345057"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 		<div class="gridy-1 gridyhe-1">
@@ -82,7 +82,7 @@ include('../inc/header.php');
 			<div class="gridinfo">
 			<h3>Cayenne</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 01/04/17, Européen marbré marron non LOOF</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 01/04/2017, Européen marbré marron non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, testée FIV/FELV négative, stérilisée, déparasitée int/ext</p>
 			</div>
 			<p class="gridexerpt">Cayenne est une jolie minette tricolore, affectueuse, curieuse, dynamique et vous ne pourrez que craquer sur sa bouille d'ange ! Adoptable avec un autre chat de l'association (notamment son frère Sésame avec qui elle est en accueil) ou sinon dans un foyer ayant déjà au moins un chat sympa.</p>
@@ -137,7 +137,7 @@ include('../inc/header.php');
 			<div class="gridinfo">
 			<h3>Sésame</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 01/04/17, Européenne roux et blanc non LOOF</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 01/04/2017, Européenne roux et blanc non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, testé FIV/FELV négatif, stérilisé, déparasité int/ext</p>
 			</div>
 			<p class="gridexerpt">Comme tous les chats, Sésame est adorable, dynamique, curieux et joueur. Il aimera votre compagnie et les caresses et calins que vous pourrez lui faire. Très affectueux, vous ne pourrez que craquer sur sa bouille d'ange ! Il est adoptable avec une de ses soeurs Cayenne ou Mélisse ou sinon dans un foyer ayant un chat sympa voir 2 maximum. Il aura surement besoin d'une alimentation pour problème urinaire (probablement à vie) trouvable facilement chez votre vétérinaire.</p>
@@ -159,7 +159,7 @@ include('../inc/header.php');
 			</div>
 		</div>			
 
-		<div class="gridy-1 gridyhe-1">
+		<!-- <div class="gridy-1 gridyhe-1">
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/antman.jpg)">&nbsp;</div>
 				
 			<div class="gridinfo">
@@ -170,6 +170,20 @@ include('../inc/header.php');
 			</div>
 			<p class="gridexerpt"> C’est un petit gabarit, calme la plupart du temps mais il ne faut pas se fier à son air innocent : comme tout chaton, les bêtises, c'est sa passion ! Très sociable avec les chiens, les chats, il est également habitué aux enfants. Antman devra trouver un foyer avec déjà un chat adulte sociable ou alors être adopté en duo avec un autre Handi'cats.</p>
 			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/a.681720511840979/4752585128087810" target="_blank" class="grid-btn grid-more"><span>Me découvrir </span> <i class="fa fa-plus"></i></a>
+			</div>
+		</div> -->
+
+		<div class="gridy-1 gridyhe-1">
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/rosaceR.jpg)">&nbsp;</div>
+				
+			<div class="gridinfo">
+			<h3>Rosace</h3>
+			<div class="gridmeta">
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 01/01/2014, Européen noire non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, testée FIV/FELV négative, stérilisée, déparasitée int/ext</p>
+			</div>
+			<p class="gridexerpt"> Rosace est une jolie perle noire qui a la particularité d'être un vériable chat-chien. Très calme, elle adore suivre son humain et s’intéresser à ce qu’il fait, surtout si c’est préparer à manger ! C’est un chat qui aime passer son temps couché près de son humain et la solitude lui pèse même si elle est capable de la supporter donc une personne présente serait l’idéal.</p>
+			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/5630601200286194" target="_blank" class="grid-btn grid-more"><span>Me découvrir </span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
@@ -193,7 +207,7 @@ include('../inc/header.php');
 			<div class="gridinfo verticale">
 			<h3>Widow</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 15/05/21, petite noiraude non LOOF</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 15/05/2021, petite noiraude non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, testée FIV/FELV négative, castrée, déparasitée int/ext</p>
 			</div>
 			<p class="gridexerpt verticale">Widow est une chatte extrêmement sociable avec les autres chats, c'est un petit clown, toujours en mouvement et elle aime qu'on s'occupe d'elle ! Widow a toujours été beaucoup plus petite et chétive que ses sœurs, elle a eu de nombreux examens. A l'apparition de plaques croûteuses et de zones dépilées, nous avons pratiqué de nombreux examens et il se trouve que Widow est allergique alimentaire. Elle a une alimentation spécifique qui doit être stricte, pas de question de vouloir en changer, c'est important pour sa santé. Un simple essai de changement de marque lui a déclenché une forte réaction au niveau d'un œil.  Il lui faudra obligatoirement un autre chat sociable comme elle dans son futur logement, ou elle peut être adoptée avec un autre jeune chat de l'Association.</p>

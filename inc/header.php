@@ -36,8 +36,8 @@
 			<ul class="menu">
 				<li><a href="../accueil/">Accueil</a></li>
 				<li><a href="../adoption/">Nos chats</a></li>
-				<li><a href="../aide">Nous aider</a></li>
-				<li><a href="../presse/">Presse</a></li>
+				<li><a href="../aide/">Nous aider</a></li>
+				<li><a href="../construction/">Presse</a></li>
 				<li><a href="../accueil/#partie-contact">Contact</a></li>
 			</ul>
 			

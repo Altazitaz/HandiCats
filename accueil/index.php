@@ -92,7 +92,7 @@
                     La fondation <span>30 Millions d’amis</span> a pris la direction de Beaumont-le-Roger, dans le département de l’Eure afin de rencontrer Alysson et ses protégés, mais également les personnes qui l’entourent et l’aident dans ses nombreuses démarches.
                     <br><br>
                     Si vous souhaitez découvrir le reportage ou le revoir, il est disponible <a href="https://www.youtube.com/watch?v=gYEQJtBQZJo" target="_blank" class="event">-ici-</a>.</p><br><br><br>
-                    <a href="https://www.facebook.com/boutique.handicats" target="_blank"><button>Découvrir</button></a>
+                    <a href="https://www.youtube.com/watch?v=gYEQJtBQZJo" target="_blank"><button>Découvrir</button></a>
                 </article>
             </section> 
         </div>

@@ -7,7 +7,7 @@
 <!-- *************************** CONSTRUCTION **********************- -->	
 		<main>
             <section class="contener-construction">
-                <img src="construction.gif" alt="gif animé de la page en construction">	   
+                <img src="../assets/construction.gif" alt="gif animé de la page en construction"style="width:70%; margin-top:10%">	   
             </section>      
         </main>
 <!-- ****************************FOOTER****************************- -->
