@@ -72,7 +72,7 @@
 			<h1>
 				<img src="../assets/img/logo/logo-HandiCats.png" alt="Logo Handi'Cats" title="Logo de l'association Handi'Cats">
 			</h1>
-			<h2>Sauvetage, Accueil et Placement de Chats et Chiens handicapés, blessés et malades</h2>
+			<h2>Sauvetage, Accueil et Placement des animaux handicapés, blessés et malades</h2>
 
 			<div class="buttonTitle">
 				<a href="../adoption/"><button>Nos chats</button></a>

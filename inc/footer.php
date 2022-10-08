@@ -20,7 +20,7 @@
 				
 			</section>
 			<div id="avertissement">
-				<p><span>Pour le bien être de votre animal, pensez à le faire stéréliser.</span></p>
+				<p><span>Pour le bien être de votre animal, pensez à le faire stériliser.</span></p>
 			</div>
 		</footer>
 	</body>

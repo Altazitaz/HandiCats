@@ -259,16 +259,16 @@ include('../inc/header.php');
 		</div>
 
 		<div class="gridy-1 gridyhe-1">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/sanshaR.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/iraisRtest.jpg)">&nbsp;</div>
 			
 			<div class="gridinfo">
-			<h3>Sansha</h3>
+			<h3>Irais</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 25/04/2022, Européen tigrée non LOOF</p>
-				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, déparasitée int/ext</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 15/05/2016, Européen blanche et grise non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, stérilisée, déparasitée int/ext</p>
 			</div>
-			<p class="gridexerpt">Shansa, soeur de Calypso est née, elle aussi avec une malformation des 2 pattes avant dite "TwistyCat". Sa patte avant gauche s'est bien redressée avec la croissance mais la droite restera ainsi. Cela ne l'empêche pas de vivre quasi normalement. Câline et pot de colle, c'est un chaton qui recherche la compagnie de ses humains. Très joueuse et très propre, elle vit avec d'autres chats, des chiens et des enfants. </p>
-			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/pcb.5699750146704632/5699744340038546/" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<p class="gridexerpt"> Aujourd'hui remise de toutes ses mésaventures, Iraïs est devenue une petite crapule très gentille, douce et calme, Toujours partante pour une partie de jeu avec les copains, elle est gourmande et joyeuse. Pour son bonheur et le vôtre, la présence d’au moins un autre chat sociable et joueur est indispensable. Une adoption double est tout à fait possible. </p>
+			<a href="https://handicats.forumgratuit.org/t5167-irais-chat-femelle" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
