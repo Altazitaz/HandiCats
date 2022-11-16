@@ -44,7 +44,24 @@
 		</nav>
 		<!-- **************************** NAV BURGER *************************- -->
 		<nav id="nav-burger" role="navigation">
-			<div id="menuToggle">
+			<section class="top-nav">
+				<div class="contenerLogoMobile">
+					<img src="../assets/img/logo/logo-HandiCats.png" alt="Logo Handi'Cats" title="Logo de l'association Handi'Cats"/>
+				</div>
+				<input id="menu-toggle" type="checkbox" />
+				<label class='menu-button-container' for="menu-toggle">
+					<div class='menu-button'></div>
+				</label>
+				<ul class="menu">
+					<li><a href="../accueil/">Accueil</a></li>
+					<li><a href="../adoption/">Nos chats</a></li>
+					<li><a href="../aide">Nous aider</a></li>
+					<li><a href="../presse/">Presse</a></li>
+					<li><a href="../accueil/#partie-contact">Contact</a></li>
+				</ul>
+			</section>
+
+			<!-- <div id="menuToggle">
 				
 				<input type="checkbox" />
 				
@@ -59,7 +76,7 @@
 					<li><a href="../presse/">Presse</a></li>
 					<li><a href="../accueil/#partie-contact">Contact</a></li>
 				</ul>
-			</div>
+			</div> -->
 		</nav>
 	</header>
 	<main>

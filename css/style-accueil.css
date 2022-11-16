@@ -127,16 +127,21 @@ strong{
         background-color: #FF5E4D;
     } */
     .background {
-        width: 8%;
+        width: 10%;
         left: 168px;
-        
+        top: -28vh;
+        height: 125vh;
     }
     .contener{
         width: 90%;
     }
+
+    .contenerAssociation{
+        height: 95vh;
+    }
     .asso{
-        left: 60px;
-        top: 1170px;
+        left: 35px;
+        top: 110vh;
     }
 
     .contenerEquipe{
@@ -144,6 +149,7 @@ strong{
     }
     .team{
         right: -40px;
+        height: 75vh;
     }
     .activity article {
         width: 28%;
@@ -170,12 +176,13 @@ strong{
         
     }
     .asso{
-        flex-direction: column;
+        flex-direction: row;
         left: 2px;
-        top: 835px;
+        top: 95vh;
         width: 100%;
         margin: 2% auto;
-    
+        justify-content: space-around;
+        align-items: end;
     }
 
     .contenerImg{
@@ -188,6 +195,23 @@ strong{
 
     .contenerEquipe{
         background-image: url(../assets/img/accueil/siriusTablet.png);
+    }
+
+    .activity{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .activity article{
+        width: 100%;
+        min-height: 0;
+        margin: 3% auto;
+    }
+
+    .activity button{
+        width: 30%;
     }
 
    
