@@ -63,9 +63,14 @@
 		</nav>
 	</header>
 	<main>
-		<section class="contenerVideo">
+		<section class="contenerVideo desktop">
 			<video loop autoplay muted>
 				<source src="../assets/cat.mp4" type="video/mp4" >
+			</video>
+		</section>
+		<section class="contenerVideo mobile">
+			<video loop autoplay muted>
+				<source src="../assets/cat1Mobile.mp4" type="video/mp4" >
 			</video>
 		</section>
 		<section class="headerTitle">

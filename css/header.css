@@ -207,6 +207,10 @@ nav li a:hover {
     position: relative;
 }
 
+.mobile{
+    display: none;
+}
+
 section.headerTitle{
     width: 30%;
     height: 65vh;
@@ -243,12 +247,16 @@ section.headerTitle{
 /*-------------------------------RESPONSIVE--------------------------------*/
 
 @media screen and (min-width:1200px) and (max-width:1400px) {
-    /* body{
+    body{
         background-color: #FF5E4D;
-    } */
+    }
+
+    header{
+        height: 10vh;;
+    }
 
     .contenerLogo {
-        width: 4%;
+        width: 5%;
     }
 
     .contenerVideo{
@@ -257,11 +265,19 @@ section.headerTitle{
         margin:0;
         position: relative;
     }
+
+    .mobile{
+        display: none;
+    }
+
     nav {
         width: 82%;;
     }
     section.headerTitle{
-        width: 40%;
+        width: 35%;
+        height: 62vh;
+        top: 470px;
+
     }
 }
 
@@ -269,16 +285,24 @@ section.headerTitle{
 
 @media screen and (min-width:968px) and (max-width:1200px) {
 
-    /* body{
+    body{
         background-color: yellow;
-    } */
-    .contenerLogo {
-        width: 6%;
     }
 
+    header{
+        height: 10vh;
+    }
+
+    .contenerLogo {
+        width: 7%;
+    }
     .contenerVideo{
         width: 105%;
         height: 500px;
+    }
+
+    .mobile{
+        display: none;
     }
 
     .contenerVideo video{
@@ -287,9 +311,9 @@ section.headerTitle{
     }
 
     nav {
-        width: 85%;;
+        width: 80%;
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 35px;
     }
     nav ul {
         margin: 0;
@@ -297,33 +321,43 @@ section.headerTitle{
         list-style-type: none;
         text-align: right;
     }
-    section.headerTitle{
-        width: 80%;
-        height: 55vh;
-        top: 280px;
-        right:35px;
+    nav li a {
+        font-size: 1.9rem; 
     }
-    .headerTitle h1{
-        width: 70%;
-        margin: 0 auto;
+    section.headerTitle{
+        width: 45%;
+        height: 46vh;
+        top: 320px;
+        right: 45px;
+        padding: 3%;
+
+    }
+    .headerTitle h1 {
+        width: 90%;
+        margin-left: 10%;
+
     }
     .headerTitle h2 {
-        font-size: 2.2em;
-        width: 100%;
-        text-align: center;
+        font-size: 1.9em;
+        width: 97%;
+        text-align: right;
         margin: 0;
     }
-    .buttonTitle{
-        align-items: center;
-        margin:0;
+    .buttonTitle {
+        align-items: flex-end;
+        margin: 0px;
+        width: 100%;
+        margin-left: -18px;
+    }
+
+    .buttonTitle a{
+        width: 60%;
     }
     #nav-burger{
         display: none;
     }
+    
 }    
-
-   
-
 
 
 /*-----------------------------------MOBIL------------------------------------*/
@@ -334,15 +368,29 @@ section.headerTitle{
     .contener-logo {
         width: 100%;
     }
-    /* body{
+
+    .desktop{
+        display: none;
+    }
+
+    .contenerVideo{
+        width: 100%;
+        /* height: 300px; */
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .contenerVideo video {
+        width: 100%;
+        height: 859px;
+    }
+    body{
         background-color: aqua;
-    } */
+    }
     header {
-        background: url(../img/image-fond/yago-abu.jpg) no-repeat 66% 70%;
-        background-size: cover;
-        position: relative;
-        margin-bottom: 20px;
-        height: 290px;
+        display: none;
     }
 
     .logo{

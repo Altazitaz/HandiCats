@@ -17,8 +17,7 @@
     font-size: 7rem;
     font-weight: bold;
     color: #fff;
-    font-family: 'Baloo 2', cursive;
-    src: url("../fonts/Baloo2-Bold.ttf") format("ttf");
+    font-family: 'Raleway', sans-serif;
     text-shadow: 1px 1px 2px #000;
 }
 
