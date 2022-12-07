@@ -93,7 +93,8 @@
     transition: all 0.8s;
   }
 
-  .gridywrap .gridinfo h3 {
+  .gridywrap .gridinfo h3,
+  .gridywrap .gridinfo h3 a {
     font-size: 2.9rem;
     color: #fff;
     font-weight: bold;
@@ -240,39 +241,22 @@
 /*-------------------------------RESPONSIVE--------------------------------*/
 
 @media screen and (min-width:1100px) and (max-width:1400px) {
-    .groupe-icone-autorisation-haut,
-    .groupe-icone-autorisation-bas {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 0 auto;
-        padding-top: 2%;
-    }
-    .contener-animal {
-        width: 80%;
-    }
-    .image-animal {
-        width: 50%;
-    }
-    .image-animal img {
-        width: 60%;
-    }
-    .info {
-        width: 40%;
-    }
+  .sous-legende {
+    margin-top: 30%;
+  }
 
-    .lb-overlay:target {
-        width: 100%;
-        height: 100%;
-        padding: 5% 0;
-        margin: 0 auto;
-    }
+  .gridexerpt{
+    display: none;
+  }
 
-    .lb-overlay img {
-        width: 35%;
-        padding: 10%;
-        margin: 0 auto;
-    } 
+  .gridmeta{
+    margin-bottom: 20px;
+  }
+
+  .gridywrap .gridinfo:hover h3 {
+    margin-top: 80px;
+    opacity: 1;
+  }
 }
 
 
@@ -284,59 +268,34 @@
     }
 
     .sous-legende {
-        width: 70%;
-        font-size: 1.8rem;
-        color: black;
-        font-weight: 300;
-        font-style: italic;
-        text-align: center;
-        margin: 9% auto;
+      margin-top: 30%;
+      width: 90%;
+    }
+
+    .gridexerpt{
+      display: none;
+    }
+
+    .gridmeta{
+      margin-bottom: 20px;
+    }
+
+    .gridywrap .gridinfo:hover h3 {
+      margin-top: 80px;
+      opacity: 1;
+    }
+
+    .gridywrap .gridinfo.verticale h3 {
+      margin: 115px 0 10px;
+    }
+
+    .gridywrap .gridinfo.verticale:hover h3 {
+      margin: 0 auto;
+      margin-top: 70px;
+      opacity: 1;
     }
     
-    .icone-autorisation {
-        width: 90%;
-        padding-top: 2%;
-    }
-    .groupe-icone-autorisation-haut,
-    .groupe-icone-autorisation-bas {
-        display: block;
-        margin: 0 auto;
-        width: 50%;
-        padding-left: 6%;
-    }
-    .icone-responsive {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-    }
-    .colonne-animal {
-        display: inline-block;
-        width: 80%;
-        padding: 0 3%;
-    }
-    .info {
-        width: 60%;
-    }
-    .resume {
-        padding: 5%;
-    }
-    .icone-animal {
-        max-width: 20%;
-    }
-
-    .lb-overlay:target {
-        width: 100%;
-        height: 100%;
-        padding: 5% 0;
-        margin: 0 auto;
-    }
-
-    .lb-overlay img {
-        width: 50%;
-        padding: 10%;
-        margin: 0 auto;
-    } 
+    
 }
 
 /*--------------------------------PHONE------------------------------*/

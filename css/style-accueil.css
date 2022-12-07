@@ -19,8 +19,8 @@
 }
 .asso{
     position: absolute;
-    top: 1150px;
-    left: 215px;
+    top: 135vh;
+    left: 10%;
 
 }
 .contenerImg{
@@ -136,6 +136,10 @@ strong{
         width: 90%;
     }
 
+    .sous-legende{
+        width: 100%;
+    }
+
     .contenerAssociation{
         height: 95vh;
     }
@@ -160,6 +164,7 @@ strong{
         margin-top: 9%;
     }
 
+
 }    
 
 /*------------------------------TABLET-------------------------------*/
@@ -177,16 +182,31 @@ strong{
     }
     .asso{
         flex-direction: row;
-        left: 2px;
-        top: 95vh;
+        left: 4%;
+        top: 90vh;
         width: 100%;
         margin: 2% auto;
         justify-content: space-around;
-        align-items: end;
+        align-items: center;
+    }
+
+    .contener,
+    .contenerDon{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contenerDon .sous-legende{
+        margin-top: 33%;
+    }
+
+    .sous-legende{
+        width: 100%;
     }
 
     .contenerImg{
         width: 42%;
+        margin-top: 15%;
     }
 
     .contener article{
@@ -197,21 +217,28 @@ strong{
         background-image: url(../assets/img/accueil/siriusTablet.png);
     }
 
-    .activity{
+    .activity,
+    .don{
         width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .activity article{
+    .activity article,
+    .don article{
         width: 100%;
         min-height: 0;
         margin: 3% auto;
     }
 
-    .activity button{
+    .activity button,
+    .don button{
         width: 30%;
+    }
+
+    .coordonnée{
+        margin-bottom: 4%;
     }
 
    

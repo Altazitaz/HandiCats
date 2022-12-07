@@ -8,9 +8,9 @@
  <!-- *************************** DON ********************** -->
         
         
-        <div id="partie-activity" class="contenerDon">
-            <h2>Faire un don</h2>
-            <hr>
+        <div class="contenerDon">
+            <!-- <h2>Faire un don</h2>
+            <hr> -->
             <div class="sous-legende">
                 <p>Vous souhaitez nous soutenir ou aider nos protégés ? Vous êtes au bon endroit ! Qu'il soit financier et/ou matériel, votre soutient nous permet d'aider des animaux dans le besoin, les soigner, les nourrir, leur apporter toute l'attention et plus encore. Les dons financiers servirons majoritairement à régler nos factures liées aux vétérinaires et actes médicaux. Le reste sert à l'achat de nourriture, litière, médicaments, matériel médical et spécialisé pour les différents handicaps de nos protégés mais également pour les éventuels travaux d'aménagement du refuge pour assurer la sécurité et le confort de nos loulous. <strong>Petits ou gros, tous vos dons sont les bienvenus, mis bout à bout ils vont nous permettre de réaliser beaucoup de choses et, comme on dit les petits ruisseaux…</strong>  </p>
 	        </div>

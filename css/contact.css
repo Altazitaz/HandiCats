@@ -93,21 +93,21 @@ input {
 
 .validation {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5vh;
 }
 
 .validation input{
     width: 20%;
     background-color: #A10684;
     border-radius: 10px;
-    height: 5vh;
+    height: 4vh;
     border: none;
     margin: 2% 2%;
     box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
 	-webkit-box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
 	-moz-box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;       
 
 }
@@ -116,10 +116,13 @@ input {
 /*-------------------------------RESPONSIVE--------------------------------*/
 
 @media screen and (min-width:1100px) and (max-width:1400px) {
-    .contenerContact {
-        width: 90%;
+    /* .contenerContact {
+        width: 95%;
     }
 
+    .sous-legende.contact{
+        width: 100%;
+    } */
 }
 
 
@@ -128,42 +131,47 @@ input {
 @media screen and (min-width:968px) and (max-width:1100px) {
     form {
         width: 100%;
-        margin: 10% auto;
-        height: 320px;
+        margin: 4% auto;
     }
 
-    .ligne-form-1 label{       
-        margin: 0 2%;
+    .contenerContact {
+        width: 95%;
     }
 
-    .ligne-form-1 input, #com {
+    .sous-legende.contact{
+        width: 100%;
+    }
+
+    #com {
         width: 100%;
         font-size: 1em;
         font-weight: 300;
         font-style: italic;
-        
+    }
+
+    .columnForm1 {
+        width: 40%;
+    }
+
+    .columnForm2 {
+        width: 50%;
+    }
+
+    label{
+        margin-top: 3%;
     }
 
     .validation {        
-        margin-top: 20px;
-             
+        margin-top: 4vh;
     }
 
     .validation input{
         text-align: center;      
-        width:150px;
-        font-size: 0.9em;
-        font-weight: 300;       
-
-    }
-    
-    .facebook {
-        width: 5%;
-        margin-top: 15%;
-        margin-left: 0%;
+        width:25%;
+        font-size: 1.2em;
+        font-weight: 500;       
     }
 }
-
 
 /*-----------------------------MOBILE-------------------------------*/
 
