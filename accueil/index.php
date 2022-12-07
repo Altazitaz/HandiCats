@@ -1,5 +1,5 @@
 <?php
-	$page = "accueil";
+	$page = "site";
 	$titre="Association Handi'Cats - Accueil";
 	include('../inc/header.php');
 ?>

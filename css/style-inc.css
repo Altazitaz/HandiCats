@@ -2,8 +2,6 @@
 v2.0 | 20110126
 License: none (public domain)
 */
-
-
 /*-------------------------------RESET-------------------------------*/
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,
@@ -18,7 +16,6 @@ tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,
     font-family: 'Raleway', sans-serif;
 }
 
-
 /* HTML5 display-role reset for older browsers */
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
@@ -28,7 +25,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 html {
     font-size: 55%;
     /* box-sizing: border-box; */
-    
 }
 
 body {
@@ -61,7 +57,7 @@ table {
 }
 
 
-/*-------------------------------SITE--------------------------------*/
+/*-------------------------------GENERAL--------------------------------*/
 
 html {
     width: 100%;
@@ -125,7 +121,6 @@ p{
     font-weight: 300;
     padding-top: 5%;
 }
-
 
 /*-------------------------------HEADER--------------------------------*/
 header {
@@ -243,8 +238,153 @@ section.headerTitle{
     cursor: pointer;
 }
 
-/*-------------------------------RESPONSIVE--------------------------------*/
+/*----------------------------CONTACT-----------------------------*/
 
+.contenerContact {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.contenerContact .sous-legende.contact{
+    margin-top: 2%;
+}
+
+.erreur {
+    background-color: #A10684;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+.success {
+    background-color: green;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+form {
+    width: 100%;
+    margin: 4% auto;
+}
+
+.columnFormulaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+label {
+    color: #677179;
+    font-weight: 600;
+    margin: 6% 0 1% 0;
+    font-size: 1.8rem;
+}
+
+input {
+    border: 2px solid #C9A0DC;
+    border-radius: 5px;
+    width: 100%;
+    height: 3vh;
+   
+}
+
+::placeholder{
+    color: #677179;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    padding: 2% 0 0 2%;
+
+}
+
+.columnForm1,
+.columnForm2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.columnForm1{
+    width: 25%;
+}
+
+.columnForm2 {
+    width: 50%;
+}
+
+.columnForm2 select{
+    width: 30%;
+    height: 3.5vh;
+    border: 2px solid #C9A0DC;
+    border-radius: 5px;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}
+
+#Com {
+    width: 100%;
+    height: 12vh;
+    border: 2px solid #C9A0DC;
+    border-radius: 5px;
+    resize: none;
+}
+
+.validation {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.validation input{
+    width: 20%;
+    background-color: #A10684;
+    border-radius: 10px;
+    height: 4vh;
+    border: none;
+    margin: 2% 2%;
+    box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
+	-webkit-box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
+	-moz-box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;       
+
+}
+
+/*----------------------------BANDE DON-----------------------------*/
+.fond-don {
+    margin-top:8%;
+    background: transparent url(../assets/img/accueil/abuYago.png) top center no-repeat;
+    height: 38vh;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+.fond-don p {
+    font-size: 5em;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px 2px #000;
+    padding-top: 0;
+}
+
+.boutonDon{
+    width: 12%;
+    margin-top: 2%;
+}
+
+
+
+
+/*-------------------------------RESPONSIVE HEADER--------------------------*/
 @media screen and (min-width:1200px) and (max-width:1400px) {
     /* body{
         background-color: #FF5E4D;
@@ -285,7 +425,6 @@ section.headerTitle{
 }
 
 /*------------------------------TABLET-------------------------------*/
-
 @media screen and (min-width:968px) and (max-width:1200px) {
 
     /* body{
@@ -376,13 +515,11 @@ section.headerTitle{
 
 
 /*-----------------------------------MOBIL------------------------------------*/
-
-
 @media screen and (min-width:300px) and (max-width:967px) {
 
-    body{
+    /* body{
         background-color: aqua;
-    }
+    } */
 
     header{
         height: 0vh;
@@ -597,6 +734,173 @@ section.headerTitle{
             margin-left: 12%;
         }
     }
+}
+
+/*-----------------------------RESPONSIVE CONTACT---------------------------*/
+@media screen and (min-width:1100px) and (max-width:1400px) {
+    /* .contenerContact {
+        width: 95%;
+    }
+
+    .sous-legende.contact{
+        width: 100%;
+    } */
+}
+
+
+/*-------------------------------TABLET--------------------------------*/
+@media screen and (min-width:968px) and (max-width:1100px) {
+    form {
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .contenerContact {
+        width: 95%;
+    }
+
+    .sous-legende.contact{
+        width: 100%;
+    }
+
+    #com {
+        width: 100%;
+        font-size: 1em;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .columnForm1 {
+        width: 40%;
+    }
+
+    .columnForm2 {
+        width: 50%;
+    }
+
+    label{
+        margin-top: 3%;
+    }
+
+    .validation {        
+        margin-top: 4vh;
+    }
+
+    .validation input{
+        text-align: center;      
+        width:25%;
+        font-size: 1.2em;
+        font-weight: 500;       
+    }
+}
+
+/*-----------------------------MOBILE-------------------------------*/
+
+@media screen and (min-width:300px) and (max-width:968px) {
+    
+    .contener-contact{
+        margin: 20% auto;
+        width: 80%;
+    }
+    form {
+        width: 100%;
+        margin: 20% auto;
+        height: 400px; 
+    }
+
+    .ligne-form-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      
+    }
+    
+    .ligne-form-1 label{
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .ligne-form-1 input, #com {
+        width: 100%;
+        font-size: 1em;
+        font-weight: 300;
+        font-style: italic;
+        
+    }
+
+    .validation {
+        text-align: left;
+        margin-top: 2%;
+    }
+
+    .validation input{
+        text-align: center;    
+        width:150px;
+        font-size: 0.9em;
+        font-weight: 300;
+        margin: 1% 0;       
+
+    }
+    
+    .facebook {
+        width: 10%;
+        margin-left: 0%;
+        margin-top: 55%;
+    }    
+}
+
+/*---------------------------RESPONSIVE BANDE DON--------------------------*/
+
+
+/*------------------------------TABLET-------------------------------*/
+
+@media screen and (min-width:968px) and (max-width:1100px) {
+
+    .fond-don {
+        /*    border: 2px solid cornflowerblue;*/
+        background: transparent url(../assets/img/accueil/abuYago.png) top center no-repeat;
+        height: 22vh;
+        width: 100%;
+        background-size: cover;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fond-don p {
+        margin-bottom:2%;
+        font-size: 3em;
+    }
+
+    .boutonDon{
+        width: 25%;
+    }
+}
+
+/*-----------------------------MOBILE-------------------------------*/
+
+@media screen and (min-width:300px) and (max-width:968px) {
+
+    .fond-don {
+        /*    border: 2px solid cornflowerblue;*/
+        background: transparent url(../assets/img/accueil/abuYago.png) top center no-repeat;
+        height: 280px;
+        width: 100%;
+        background-size: cover;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:20%; 
+    }
+
+    .don p {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+ 
 }
     
 
