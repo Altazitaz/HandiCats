@@ -14,10 +14,8 @@
 	
 
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,500,600,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/style-inc.css">
 	<link rel="stylesheet" type="text/css" href="../css/style-<?php echo $page; ?>.css">
-	<link rel="stylesheet" type="text/css" href="../css/don.css">
-	<link rel="stylesheet" type="text/css" href="../css/contact.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<script type="text/javascript" src="../script/jquery.js"></script>
 	
