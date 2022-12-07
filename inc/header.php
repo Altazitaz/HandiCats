@@ -98,6 +98,6 @@
 
 			<div class="buttonTitle">
 				<a href="../adoption/"><button>Nos chats</button></a>
-				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TKWMJ45JNR3XQ" target="_blank"><button>Faire un don</button></a>
+				<a href="../aide"><button>Nous aider</button></a>
 			</div>
 		</section>
