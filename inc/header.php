@@ -78,11 +78,15 @@
 		</nav>
 	</header>
 	<main>
-		<section class="headerImg desktop">
-			<img src="../assets/img/accueil/test.jpg" alt="Logo Handi'Cats" title="Logo de l'association Handi'Cats">
+		<section class="contenerVideo desktop">
+			<video loop autoplay muted>
+				<source src="../assets/cat.mp4" type="video/mp4" >
+			</video>
 		</section>
-		<section class="headerImg mobile">
-			<img src="../assets/img/accueil/recadrage-test.jpg" alt="Logo Handi'Cats" title="Logo de l'association Handi'Cats">
+		<section class="contenerVideo mobile">
+			<video loop autoplay muted>
+				<source src="../assets/cat1Mobile.mp4" type="video/mp4" >
+			</video>
 		</section>
 		<section class="headerTitle">
 			<h1>
