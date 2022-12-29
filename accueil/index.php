@@ -10,11 +10,13 @@
     
     
         <div id="partie-association" class="contenerAssociation">
-            <section class="background"></section>
             <section class="contener asso" >
-                <div class="contenerImg">
-                    <img src="../assets/img/accueil/asso.png" alt="image association jardin" title="Image du jardin de l'association Handi'Cats"/>
-                </div>
+                <div class="assoImg">
+                    <div class="background"></div>
+                    <div class="contenerImg special">
+                        <img src="../assets/img/accueil/asso.png" alt="image association jardin" title="Image du jardin de l'association Handi'Cats"/>
+                    </div>
+                </div>    
                 <article>
                     <h2>L'Association Handi'Cats</h2>
                     <hr>
@@ -56,7 +58,7 @@
 
  <!-- *************************** EVENEMENT ********************** -->
         
-        <div id="partie-activity" class="contenerActivity">
+        <!-- <div id="partie-activity" class="contenerActivity">
             <h2>Les événements et activités</h2>
             <hr>
             <section class="contener activity" >
@@ -67,7 +69,7 @@
                     Venez participer à des tombolas, nous rencontrer sur des salons, nous aidez à la constructions de nouveaux espaces ou encore fêter avec nous nos années passées.
                     <br><br>
                     Rejoignez-nous sur notre <span>Facebook</span> pour être tenus au courant des prochaines activitées / événements. <br>
-                    Nous serons ravis de vous retrouver.</p><br><br>
+                    Nous serons ravis de vous retrouver.</p>
                     <a href="https://www.facebook.com/associationhandicats" target="_blank"><button>Découvrir</button></a>
 				    
                 </article>
@@ -79,8 +81,7 @@
                     Venez découvrir de nombreux produits faits mains pour la plupart (Coussins, bouillottes, cartes illustrées..).
                     Envie d’une jolie bague, de décorer votre canapé avec des coussins en forme de chat, ou encore d’offrir un jouet à votre petite boule de poil, alors rendez-sur la <span>Boutique de l’Association</span>.
                     <br><br>
-                    Nous vous expliquerons et vous accompagnerons dans toutes les démarches.<br> Alors n'hésitez pas à nous rendre visite pour vous faire plaisir à vous et/ou vos amis.</p><br>
-                    <br>
+                    Nous vous expliquerons et vous accompagnerons dans toutes les démarches.<br> Alors n'hésitez pas à nous rendre visite pour vous faire plaisir à vous et/ou vos amis.</p>
                     <a href="https://www.facebook.com/boutique.handicats" target="_blank"><button>Découvrir </button></a>
                 </article>
 
@@ -90,12 +91,12 @@
                     <br><br>
                     L’Association Handi’Cats a été mise à l’honneur lors de l’émission du 25 janvier 2015.
                     La fondation <span>30 Millions d’amis</span> a pris la direction de Beaumont-le-Roger, dans le département de l’Eure afin de rencontrer Alysson et ses protégés, mais également les personnes qui l’entourent et l’aident dans ses nombreuses démarches au quotidien.
-                    <br><br>
-                    Si vous souhaitez découvrir le reportage ou le revoir, il est disponible <a href="https://www.youtube.com/watch?v=gYEQJtBQZJo" target="_blank" class="event">-ici-</a>.</p><br><br>
+                    <br>
+                    Si vous souhaitez découvrir le reportage ou le revoir, il est disponible <a href="https://www.youtube.com/watch?v=gYEQJtBQZJo" target="_blank" class="event">-ici-</a>.</p>
                     <a href="https://www.youtube.com/watch?v=gYEQJtBQZJo" target="_blank"><button>Découvrir</button></a>
                 </article>
             </section> 
-        </div>
+        </div> -->
 
 <!-- ******************************BANDE DON**************************- -->
 	    <?php include('../inc/bande-don.php');?>
