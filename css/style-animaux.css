@@ -288,7 +288,7 @@
     
 }
 
-/*--------------------------------PHONE------------------------------*/
+/*--------------------------------MOBIL------------------------------*/
 
 @media screen and (min-width:320px) and (max-width:968px) {
     .contener-animal {
@@ -307,85 +307,27 @@
         margin: 8% auto;
     }
     
-    .groupe-icone-autorisation-haut,
-    .groupe-icone-autorisation-bas {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 16%;
-    }
-    .icone-autorisation {
-        width: 100%;
-    }
-    table {
-        width: 100%;
-    }
-    .colonne-animal img {
-        width: 100%;
-        
-    }
-    
-    .colonne-animal {
-        display: inline-block;
-        width: 100%;
-        justify-content: center;
-    }
-    .inverse {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .info {
-        width: 95%;
-        padding: 5% 3%;
-    }
-    .info h2 {
-        text-align: center;
-        padding-top: 10%;
+    .gridexerpt{
+      display: none;
     }
 
-    .resume{
-        padding-top:10%;
-    }
-    .resume h2 {
-        text-align: center;
-        
-    }
-    .icone-animal {
-        max-width: 25%;
-        align-items: center;
+    .gridmeta{
+      margin-bottom: 20px;
     }
 
-    .daiko-fond, .aina-fond, .fyhn-fond{
-        
-        background: #ede0f3; /* Old Browsers */
-        background: -webkit-linear-gradient(left,#ede0f3,#f9f5fb); /*Safari 5.1-6*/
-        background: -o-linear-gradient(left,#ede0f3,#f9f5fb); /*Opera 11.1-12*/
-        background: -moz-linear-gradient(left,#ede0f3,#f9f5fb); /*Fx 3.6-15*/
-        background: linear-gradient(to right, #ede0f3, #f9f5fb); /*Standard*/
-        border: 5px solid #e8d6f1;
-        width: 100%;
-        background-size: 100% 100%;
-        z-index: -1;
-        margin-top:30%;
+    .gridywrap .gridinfo:hover h3 {
+      margin-top: 80px;
+      opacity: 1;
     }
 
-    .makoucha-fond, .chocolate-fond{
-        
-        background: #ede0f3; /* Old Browsers */
-        background: -webkit-linear-gradient(right,#ede0f3,#f9f5fb); /*Safari 5.1-6*/
-        background: -o-linear-gradient(right,#ede0f3,#f9f5fb); /*Opera 11.1-12*/
-        background: -moz-linear-gradient(right,#ede0f3,#f9f5fb); /*Fx 3.6-15*/
-        background: linear-gradient(to left, #ede0f3, #f9f5fb); /*Standard*/
-        border: 5px solid #e8d6f1;
-        width: 100%;
-        background-size: 100% 100%;
-        z-index: -1;
-        margin-top:30%;
+    .gridywrap .gridinfo.verticale h3 {
+      margin: 115px 0 10px;
     }
 
-    .lb-overlay {
-        display: none;
+    .gridywrap .gridinfo.verticale:hover h3 {
+      margin: 0 auto;
+      margin-top: 70px;
+      opacity: 1;
     }
 
 }

@@ -12,8 +12,8 @@
         <div id="partie-association" class="contenerAssociation">
             <section class="contener asso" >
                 <div class="assoImg">
-                    <div class="background"></div>
-                    <div class="contenerImg special">
+                    <div class="backgroundAsso"></div>
+                    <div class="contenerImg specialAsso">
                         <img src="../assets/img/accueil/asso.png" alt="image association jardin" title="Image du jardin de l'association Handi'Cats"/>
                     </div>
                 </div>    
@@ -31,34 +31,35 @@
         </div>  
         
         <div id="partie-equipe" class="contenerEquipe">
-            <section class="backgroundHorizon"></section>
             <section class="contener team" >
                 <article>
                     <h2>Intégrer l’Association</h2>
                     <hr>
                     <p>Comme nous, la cause animale vous tient à coeur et vous aimez ces petites boules de poils alors n’hésitez pas à nous rejoindre. Participez à la vie de l’association soit en devenant bénévole au sein de notre équipe  soit en devenant parrain/marraine et/ou famille d’accueil (FA).
                     <br><br>
-                    <span>Vous souhaitez parrainer ? </span>
+                    <span>Vous souhaitez parrainer ? </span><br>
                     Choissisez votre futur filleul parmi tous nos protégés, en soins, à l'adoption et/ou en attente d’adoption en famille d’accueil.<br>
                     Le principe du parrainage est de verser régulièrement la somme de votre choix pour subvenir à une partie des frais qu'engendre la prise en charge de celui-ci.
                     <br><br>
-                    <span>Vous souhaitez devenir bénévole ?</span>
+                    <span>Vous souhaitez devenir bénévole ?</span> <br>
                     Contactez-nous afin de découvrir les missions qui vous attendent au contact de nos protégés, ainsi que les différents besoin de l’association.
                     <br><br>
-                    <span>Vous souhaitez avoir des informations précises ou avez des questions ?</span>
+                    <span>Vous souhaitez avoir des informations précises ou avez des questions ?</span><br>
                     Contactez-nous en passant par la rubrique <a href="#partie-contact"><span>« Contact ».</span></a>
                     </p>
                 </article>
-                <div class="contenerImg">
-                    <img src="../assets/img/accueil/integration.png" alt="image de l'équipe de l'association" title="Une partie des bénévoles de l'association Handi'Cats"/>
-                </div>
+                <div class="assoImg">
+                    <div class="backgroundTeam"></div>
+                    <div class="contenerImg specialTeam ">
+                        <img src="../assets/img/accueil/integration.png" alt="image de l'équipe de l'association" title="Une partie des bénévoles de l'association Handi'Cats"/>
+                    </div>
+                </div>    
             </section> 
         </div>
 
-
  <!-- *************************** EVENEMENT ********************** -->
         
-        <!-- <div id="partie-activity" class="contenerActivity">
+        <div id="partie-activity" class="contenerActivity">
             <h2>Les événements et activités</h2>
             <hr>
             <section class="contener activity" >
@@ -96,7 +97,7 @@
                     <a href="https://www.youtube.com/watch?v=gYEQJtBQZJo" target="_blank"><button>Découvrir</button></a>
                 </article>
             </section> 
-        </div> -->
+        </div>
 
 <!-- ******************************BANDE DON**************************- -->
 	    <?php include('../inc/bande-don.php');?>

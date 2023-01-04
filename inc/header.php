@@ -78,15 +78,11 @@
 		</nav>
 	</header>
 	<main>
-		<section class="contenerVideo desktop">
-			<video loop autoplay muted>
-				<source src="../assets/cat.mp4" type="video/mp4" >
-			</video>
+		<section class="headerImg desktop">
+			<img src="../assets/img/accueil/imageDesktop.jpg" alt="Image d'un chat de l'association" title="Image d'un chat de l'association">
 		</section>
-		<section class="contenerVideo mobile">
-			<video loop autoplay muted>
-				<source src="../assets/cat1Mobile.mp4" type="video/mp4" >
-			</video>
+		<section class="headerImg mobile">
+			<img src="../assets/img/accueil/imageMobil.jpg" alt="Image d'un chat de l'association" title="Image d'un chat de l'association">
 		</section>
 		<section class="headerTitle">
 			<h1>
