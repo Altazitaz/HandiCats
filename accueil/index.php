@@ -63,7 +63,7 @@
             <h2>Les événements et activités</h2>
             <hr>
             <section class="contener activity" >
-                <article class="followUs">
+                <article>
                     <h3>Suivez-nous</h3><br>
                     <p>Des événements et des activités s’organisent au sein d’ Handi’Cats afin de se retrouver, de s’entre-aider et de nous rencontrer.
                     <br><br>

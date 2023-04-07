@@ -176,6 +176,7 @@
   .gridywrap .gridinfo .grid-btn:hover span {
     opacity: 1;
     display: inline;
+
   }
 
   .gridywrap .gridinfo .grid-btn:hover i {
@@ -296,7 +297,6 @@
         display: flex;
         flex-direction: column;
     }
-
     .sous-legende {
         width: 70%;
         font-size: 1.2rem;
@@ -306,28 +306,22 @@
         text-align: center;
         margin: 8% auto;
     }
-    
     .gridexerpt{
       display: none;
     }
-
     .gridmeta{
       margin-bottom: 20px;
     }
-
     .gridywrap .gridinfo:hover h3 {
       margin-top: 80px;
       opacity: 1;
     }
-
     .gridywrap .gridinfo.verticale h3 {
       margin: 115px 0 10px;
     }
-
     .gridywrap .gridinfo.verticale:hover h3 {
       margin: 0 auto;
       margin-top: 70px;
       opacity: 1;
     }
-
 }

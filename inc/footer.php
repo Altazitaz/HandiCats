@@ -13,10 +13,11 @@
 					<li><a href="https://handicats.forumgratuit.org/f198-nos-animaux-a-l-adoption" target="_blank">Forum</a></li>
 					<li><a href="../footer-mention/">Mentions légales</a></li>
 					<li><a href="../footer-plansite/">Plan du site</a></li>
+					
+					<li><span> | &copy; <?php echo date('Y'); ?> | Tous droits réservé |</span></li>
 					<li class="facebook">
 						<a href="https://www.facebook.com/associationhandicats/" target="_blank"><img src="../assets/img/icone/facebook.png" alt="icone" title="facebook de l'association"></a>
 					</li>
-					<li><span> | &copy; <?php echo date('Y'); ?> | Tous droits réservé |</span></li>
 				</ul>
 				
 			</section>

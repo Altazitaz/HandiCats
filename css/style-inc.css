@@ -584,11 +584,6 @@ input {
 
 /*-----------------------------------MOBIL------------------------------------*/
 @media only screen and (max-width: 700px) {
-
-    /* body{
-        background-color: yellow;
-    } */
-
     button{
         font-size: 1.1em;
     }
@@ -690,7 +685,6 @@ input {
         margin-top: 0px;
         transform: rotate(-405deg);
     }
-    
     
     @media (max-width: 700px) {
         .menu-button-container {
@@ -848,11 +842,14 @@ input {
         margin: 0 auto;
     }
 
-    .facebook {
-        width: 5%;
+    li.facebook {
+        width: 6%;
         margin-top: 0;
     }
-    
+
+    div#avertissement{
+        display: none;
+    }
 }
 
 
