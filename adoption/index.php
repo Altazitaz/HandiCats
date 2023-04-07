@@ -39,16 +39,16 @@ include('../inc/header.php');
 		</div>
 
 		<div class="gridy-1 gridyhe-2 ">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/power.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/hypnose.jpg)">&nbsp;</div>
 			
 			<div class="gridinfo verticale">
-			<h3>Power</h3>
+			<h3>Hypnose</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 01/01/2019, Européen tigré et blanc non LOOF</p>
-				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, testé FIV/FELV négatif, castré, déparasité int/ext</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 01/06/2021, Européen grise non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée TCL, stérilisée, testée FIV/FELV négatif, déparasitée int/ext</p>
 			</div>
-			<p class="gridexerpt verticale">Power un chat-warrior qui revient de très loin. Arrivé à l'association dans un état catastrophique. Opéré à plusieurs reprises et soigné correctement, aujourd'hui il croque la vie à pleine dent.  Parfaitement guéri, il grimpe, saute et court sur 3 pattes. Il est très sociable avec les chats et recherche énormément leur contact. Il reste craintif avec les humains au premier abord et il faudra lui laisser du temps ; une fois la confiance gagnée, il devient un chat très câlin. Il devra trouver un foyer avec au moins un chat très sociable et proche des autres chats comme lui.</p>
-			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/a.681720511840979/4755796084433381" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<p class="gridexerpt verticale">Hypnose est une jolie minette bleue arrivée à l’association avec sa sœur Opium (adoptée). Elle a quelques séquelles légères d'une infection (dûe à un polype retiré), comme un petit défaut d'équilibre au niveau du train arrière et une petite tête penchée (ce qui ne l'empêche en rien de monter partout) et un petit coryza chronique. Elle s'entend bien avec les chats et les chiens. Elle sera à placer dans un foyer avec au moins un chat joueur ou en double adoption avec un autre chat de l'association avec qui elle pourra faire pleins de courses poursuites et des humains assez présents contre qui elle pourra faire de longues siestes.</p>
+			<a href="https://www.facebook.com/681342371878793/photos/a.681720511840979/5798260213520291/" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 		<div class="gridy-2 gridyhe-1">
@@ -65,7 +65,7 @@ include('../inc/header.php');
 			</div>
 		</div>
 		<div class="gridy-1 gridyhe-1">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/apisR.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/apisMAJ.jpg)">&nbsp;</div>
 			<div class="gridinfo">
 			<h3>Apis</h3>
 			<div class="gridmeta">
@@ -73,7 +73,7 @@ include('../inc/header.php');
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, déparasité int/ext</p>
 			</div>
 			<p class="gridexerpt">Apis est un petit chaton craintif au premier abord mais il se détend très vite pour les câlins et le jeu. Le fait d'avoir beaucoup manqué de nourriture l'a rendu très (trop) gourmand, il faudra par la suite surveiller sa prise de poids. A adopter par 2 ou avec au moins un autre chat dans son futur foyer.</p>
-			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/5690012564345057"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<a href="https://www.facebook.com/profile.php?id=100064326863857"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 		<div class="gridy-1 gridyhe-1">
@@ -230,18 +230,18 @@ include('../inc/header.php');
 		</div>
 
 		<div class="gridy-1 gridyhe-2 ">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/calypsoR.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/loco.jpg)">&nbsp;</div>
 			
 			<div class="gridinfo verticale">
-			<h3>Calypso</h3>
+			<h3>Loco</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 25/04/2022, Européen tigrée non LOOF</p>
-				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, déparasitée int/ext</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 15/09/2022, Européen noir non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné TCL, testé FIV/FELV négatif, déparasité int/ext</p>
 			</div>
-			<p class="gridexerpt verticale">Calypso est une jolie petite minette arrivée avec ses 2 frère et soeur. Elle est née avec une malformation des 2 pattes avant dite "TwistyCat". Cela ne l'empêche pas de vivre quasi normalement, elle se tient toujours, au repos, sur l'arrière de son corps comme un petit suricate. Il faudra faire attention à ce qu'elle ne puisse pas grimper trop haut et donc soit obligée de sauter et se réceptionner sur l'avant de son corps au risque de se casser une patte. Étant un chaton biberonné, elle est très pot de colle, c'est la plus débrouillarde et la plus indépendante de sa portée. Elle vit avec d'autres chats, des chiens et des enfants. Elle peut être adoptée en duo avec sa soeur Shansa, un autre de nos chatons, ou dans un foyer ayant déjà au moins un chat très sociable comme elle.<br><br>
+			<p class="gridexerpt verticale">Loco est un beau minet noir né d'une portée de 5 loulous. Ce sont des chatons en pleine forme qui n'ont aucun handicap. Comme tout chaton, il est très joueur, énergique et pourrait faire quelques bêtises ! Placement obligatoire avec un autre chat déjà présent au foyer ou à 2 avec un de ses frères et soeur. Ils pourront être craintifs à leur arrivée, les changements peuvent être impressionnants pour eux et ce sont des bébés nés dehors. Ils prendront vite confiance et maintenant<br><br>
 			Obligation de stérilisation pour ses 6 mois, un chèque de caution sera demandé et détruit sur justificatif vétérinaire
 			</p>
-			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/pcb.5699750146704632/5699739500039030/" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<a href="https://www.facebook.com/681342371878793/photos/a.681720511840979/6091866094159700/" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
