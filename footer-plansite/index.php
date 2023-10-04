@@ -1,5 +1,5 @@
  <?php
- 	// $page = "plan";
+ 	$page = "plan";
  	$titre="Plan du site";
  	include('../inc/header.php');
  ?>

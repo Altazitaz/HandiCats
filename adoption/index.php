@@ -6,16 +6,15 @@ include('../inc/header.php');
 ?>
 	<!-- ******************** Legende **********************- -->
 	<div class="sous-legende">
-		<p>Ci-dessous sont présentés les chats qui sont prêts à être adoptés. Selon le lieu où ils se trouvent et si les conditions le permettent un co-voiturage peut-être organisé. Si vous souhaitez postuler pour une adoption, n’hésitez pas à contacter Samantha, la responsable «Adoption» à l'adresse suivante handicats.adoptions@gmail.com ou via le formulaire de contact.</p>
+		<p>Ci-dessous sont présentés les chats qui sont prêts à être adoptés. Selon le lieu où ils se trouvent et si les conditions le permettent un co-voiturage peut-être organisé. Si vous souhaitez postuler pour une adoption, n’hésitez pas à contacter Julie ou Marie, les responsables «Adoption» à l'adresse suivante handicats.adoptions@gmail.com ou via le formulaire de contact.</p>
 	</div>
 
 	<div class="gridywrap">
-		
-		<div class="gridy-1 gridyhe-2 ">
+	<div class="gridy-1 gridyhe-2 ">
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/hypnose.jpg)">&nbsp;</div>
 			
 			<div class="gridinfo verticale">
-			<h3>Hypnose</h3>
+			<h3>Hypnose (En cours d'adoption)</h3>
 			<div class="gridmeta">
 				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 01/06/2021, Européen grise non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée TCL, stérilisée, testée FIV/FELV négatif, déparasitée int/ext</p>
@@ -24,6 +23,7 @@ include('../inc/header.php');
 			<a href="https://www.facebook.com/681342371878793/photos/a.681720511840979/5798260213520291/" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
+
 		<div class="gridy-2 gridyhe-1">
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/melisse.jpg)">&nbsp;</div>
 			
@@ -37,6 +37,7 @@ include('../inc/header.php');
 			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/a.681720511840979/2284560531556961" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
+
 		<div class="gridy-1 gridyhe-1">
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/apisMAJ.jpg)">&nbsp;</div>
 			<div class="gridinfo">
@@ -49,6 +50,7 @@ include('../inc/header.php');
 			<a href="https://www.facebook.com/profile.php?id=100064326863857"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
+
 		<div class="gridy-1 gridyhe-1">
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/cayenne.jpg)">&nbsp;</div>
 			
@@ -130,13 +132,13 @@ include('../inc/header.php');
 			<p class="gridexerpt"> Arrow est un chat sociable humains, un amour qui peut être câlin mais qui a du caractère, c'est s’il a envie et quand il veut. Arrivé à l’asso car accidentellement bléssé à la cuisse ; il a eu une grosse fracture et surtout une grosse infection. Il a été opéré plusieurs fois et il garde une boiterie à une patte arrière, cette patte étant plus courte que l'autre (il a fallu réduire le fémur). Cela ne l'empêche pas de vivre sa vie comme il le souhaite. N'appréciant guère ses congénères (chats et chiens) il recherche donc un foyer sans animaux et sans jeunes enfants. </p>
 			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/a.681720511840979/5547852141894434" target="_blank" class="grid-btn grid-more"><span>Me découvrir </span> <i class="fa fa-plus"></i></a>
 			</div>
-		</div>			
+		</div>		
 
 		<div class="gridy-1 gridyhe-1">
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/maya.jpg)">&nbsp;</div>
 			
 			<div class="gridinfo">
-			<h3>Maya</h3>
+			<h3>Maya (adoptée)</h3>
 			<div class="gridmeta">
 				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 25/04/2022, Européen tigrée non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, déparasitée int/ext</p>
@@ -158,7 +160,7 @@ include('../inc/header.php');
 			<p class="gridexerpt verticale">Khaleesi est une minette de seulement 2 ans qui a toute la vie devant elle, joueuse et très câline, elle aime s'exprimer vocalement. Elle a un caractère bien trempé et une grande sensibilité, ce qui fait qu'elle a du mal à gérer la contrainte ou le moindre changement dans son quotidien. Amputée d'une de ses pattes arrières, et n'ayant plus qu'un doigt à l'autre patte, elle ne peut pas sauter, mais simplement se hisser à l'aide de ses pattes avant. Elle devra être surveillée toute sa vie et nous souhaitons trouver une famille relativement proche géographiquement de l'association pour qu'elle puisse consulter nos vétérinaires en cas de problème avec sa patte. Vu son caractère, un placement sans animaux ni enfants (ou grands) est recherché.</p>
 			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/a.681720511840979/5515550951791220" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
-		</div>
+		</div>			
 
 		<div class="gridy-1 gridyhe-2 ">
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/widow.jpg)">&nbsp;</div>
@@ -187,6 +189,8 @@ include('../inc/header.php');
 			<a href="https://www.facebook.com/photo.php?fbid=590247486462808&set=pb.100064326863857.-2207520000.&type=3" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
+
+		
 
 		<div class="gridy-1 gridyhe-2 ">
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/loco.jpg)">&nbsp;</div>
@@ -235,7 +239,7 @@ include('../inc/header.php');
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/mielR.jpg)">&nbsp;</div>
 			
 			<div class="gridinfo">
-			<h3>Miel</h3>
+			<h3>Miel (adopté)</h3>
 			<div class="gridmeta">
 				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 25/04/2022, Européen tigré non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, déparasité int/ext</p>
@@ -273,7 +277,6 @@ include('../inc/header.php');
 			</div>
 		</div>
 
-		
 	</div>
 	<div class="ghost">
 		<p>texte d'aide</p>

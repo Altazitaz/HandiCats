@@ -89,11 +89,11 @@ if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir
 			$email_suject = "Autre...";
 		}
 
-		elseif ($_POST['objet'] == "famille")
-		{
-			$email_destinataire = "famille.accueil.handicats@gmail.com";
-			$email_suject = "Je souhaite devenir famille d'accueil";
-		}
+		// elseif ($_POST['objet'] == "famille")
+		// {
+		// 	$email_destinataire = "famille.accueil.handicats@gmail.com";
+		// 	$email_suject = "Je souhaite devenir famille d'accueil";
+		// }
 
 		elseif ($_POST['objet'] == "parrainage")
 		{
@@ -153,7 +153,7 @@ if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir
 					<label for="objet">Objet du message:</label>
 					<select name="objet">
 						<option value="adoption">Adoption</option>
-						<option value="famille">Devenir famille d'accueil</option>
+						<!-- <option value="famille">Devenir famille d'accueil</option> -->
 						<option value="parrainage">Parrainer un animal</option>
 						<option value="don">Faire un don</option>
 						<option value="boutique">Boutique</option>

@@ -1,5 +1,5 @@
 <?php
-	// $page = "mention";
+	$page = "mention";
 	$titre="Mentions légales";
 	include('../inc/header.php');
 ?>

@@ -23,8 +23,8 @@
                     <p>L’ association Handi’Cats a été créée en 2011 par Alysson Sallandre, des suites d’une expérience forte en émotion avec un chat prénommé Ycar.
                     <br><br>
                     Elle vient en aide à tous les animaux, le plus souvent des chats, handicapés, blessés et/ou malades. Ces animaux viennent de la rue, de la fourrière et d’abandons de particuliers. Si l'animal a besoin de soins, il ne sera proposé à l'adoption qu'après un total rétablissement.
-                    <br><br>
-                    Un relai en Famille d'accueil est possible, entre le passage en soins chez nous (au siège) et l'adoption. Pour nous permettre de mieux connaître l'animal et cibler ses besoins au quotidien. Pour le bien-être et le calme des animaux, l'association est un site privé et non ouvert au public. Toutefois, si vous souhaitez devenir vous-même Famille d’accueil, vous pouvez le faire en nous contactant. </p>
+                    <br><br>Parfois, les animaux qui arrivent à l'association sont lourdement handicapés. Pour les aider au mieux, l'association offre à ses pensionnaires un système de rééducation complet et adapté dans l'espoir de leur rendre un maximum de mobilité et d'autonomie accompagnés des soins adaptés (Médicaments, surveillance accrue, visite chez le vétérinaire voir même interventions). Le bien être de ses pensionnaires en une priorité pour l'association.<br><br><br>
+                    </p>
                 </article>
 
             </section> 
