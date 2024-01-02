@@ -15,8 +15,8 @@
 		<h4><a href="../accueil/#partie-contact">Contactez-nous</a></h4>
 
 		<h2><a href="../adoption/">Nos chats</a></h2>
-		<h2><a href="../adoption/">Nous aider</a></h2>
-		<h2><a href="../accueil/#partie-presse">Presse</a></h2>
+		<h2><a href="../aide/">Nous aider</a></h2>
+		<h2><a href="../construction/#partie-presse">Presse</a></h2>
 		<h2><a href="../accueil/#partie-contact">Contact</a></h2>
  	</div>
  </body>

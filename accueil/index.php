@@ -48,7 +48,8 @@
                     Contactez-nous en passant par la rubrique <a href="#partie-contact"><span>« Contact ».</span></a>
                     </p>
                 </article>
-                <div class="assoImg">
+                <div class="ghostTeam"></div>
+                <div class="assoImgTeam">
                     <div class="backgroundTeam"></div>
                     <div class="contenerImg specialTeam ">
                         <img src="../assets/img/accueil/integration.png" alt="image de l'équipe de l'association" title="Une partie des bénévoles de l'association Handi'Cats"/>

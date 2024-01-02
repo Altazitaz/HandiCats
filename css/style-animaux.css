@@ -8,7 +8,7 @@
   font-style: italic;
   text-align: center;
   margin: 5% auto;
-  margin-top: 14%;
+  margin-top: 5%;
 }
 
 /*-------------------------------GALLERY--------------------------------*/
@@ -208,14 +208,14 @@ box-sizing: border-box;
   background: rgba(161, 6, 132, 0.7);
 }
 .gridywrap .gridinfo:hover h3 {
-  margin-top: 30px;
+  margin-top: 20px;
   opacity: 1;
 
 }
 
 .gridywrap .gridinfo.verticale:hover h3 {
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 110px;
   opacity: 1;
 }
 

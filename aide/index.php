@@ -18,19 +18,9 @@
                 <article>
                     <h3>Faire un don par virement bancaire</h3><br>
                     <p> Si vous souhaitez passer par le virement bancaire, il vous suffit d'enregistrer les coordonnées bancaires de notre association sur le site ou l'application de votre banque et de nous y ajouter en tant que nouveau bénéficiaire.<br><br>
-                    <span>Nos coordonnée bancaires :</span>
-                    </p>
-                    
-                    <div class="coordonnée">
-                        <p>Association Handi'cats :<br>
-                        Banque : 30027<br>
-                        Guichet : 16022<br>
-                        n° de compte :00020170601<br>
-                        Clé : 78<br>
-                        IBAN : FR7630027160220002017060178<br>
-                        BIC : CMCIFRPP
-                        </p>
-                    </div>    
+                    <span>Démarches à suivre :</span><br>
+                    Nous contacter via le formulaire de contact et sélectionner "Autre" comme objet du message. Précisez en commentaire la nature de la demande.
+                    </p> 
                 </article>
 
                 <article>
@@ -43,13 +33,12 @@
                         27170 Beaumont le Roger<br>
                         </p>
                     </div>  
-                    <br>
                 </article>
 
                 <article>
                     <h3>Faire un don par Paypal</h3><br>
                     <p>Vous avez un compte Paypal et vous souhaitez l'utiliser, il vous suffit de cliquer sur "Faire un don avec Paypal" pour arriver directement sur le site paypal lié au compte de l'association. Il vous suffira ensuite de choisir le montant de votre don et de vous laisser guider ...<br>
-                    Si vous voulez que votre don aille à un loulou en particulier, n'oubliez pas de le préciser avec votre paiement ! <br><br> Merci pour eux de toute l'aide que vous apporterez !</p><br><br>
+                    Si vous voulez que votre don aille à un loulou en particulier, n'oubliez pas de le préciser avec votre paiement !</p><br><br>
 				    
                     <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=TKWMJ45JNR3XQ" target="_blank"><button>Faire un don avec <i style= "color: white; font-size: 2.5rem; margin-left:1.5%" class="fa-brands fa-paypal"></i></button></a>
                 </article>

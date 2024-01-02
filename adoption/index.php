@@ -11,16 +11,16 @@ include('../inc/header.php');
 
 	<div class="gridywrap">
 	<div class="gridy-1 gridyhe-2 ">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/hypnose.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/diya.jpg)">&nbsp;</div>
 			
 			<div class="gridinfo verticale">
-			<h3>Hypnose (En cours d'adoption)</h3>
+			<h3>Diya</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 01/06/2021, Européen grise non LOOF</p>
-				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée TCL, stérilisée, testée FIV/FELV négatif, déparasitée int/ext</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 13/04/2023, Européen noir non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, stérilisée, vaccinée TCL, téstée FIV et FELV négative et déparasitée int/ext</p>
 			</div>
-			<p class="gridexerpt verticale">Hypnose est une jolie minette bleue arrivée à l’association avec sa sœur Opium (adoptée). Elle a quelques séquelles légères d'une infection (dûe à un polype retiré), comme un petit défaut d'équilibre au niveau du train arrière et une petite tête penchée (ce qui ne l'empêche en rien de monter partout) et un petit coryza chronique. Elle s'entend bien avec les chats et les chiens. Elle sera à placer dans un foyer avec au moins un chat joueur ou en double adoption avec un autre chat de l'association avec qui elle pourra faire pleins de courses poursuites et des humains assez présents contre qui elle pourra faire de longues siestes.</p>
-			<a href="https://www.facebook.com/681342371878793/photos/a.681720511840979/5798260213520291/" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<p class="gridexerpt verticale">Diya, est un bébé miracle. C’est la seule survivante de sa portée de 5 chatons. C'est une petite boule de poils (qui seront mi-longs) toute noire pleine de vie, très joueuse, câline à ses heures perdues, elle est têtue et ça fait tout son charme ! Elle a grandi avec chats et chiens et est donc très sociable avec tout le monde. Elle recherche un foyer avec obligatoirement un autre chat déjà présent ou en duo avec l'un de nos autres protégés.</p>
+			<a href="https://www.facebook.com/photo/?fbid=655952349892321&set=a.681720511840979" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
@@ -47,7 +47,7 @@ include('../inc/header.php');
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, déparasité int/ext</p>
 			</div>
 			<p class="gridexerpt">Apis est un petit chaton craintif au premier abord mais il se détend très vite pour les câlins et le jeu. Le fait d'avoir beaucoup manqué de nourriture l'a rendu très (trop) gourmand, il faudra par la suite surveiller sa prise de poids. A adopter par 2 ou avec au moins un autre chat dans son futur foyer.</p>
-			<a href="https://www.facebook.com/profile.php?id=100064326863857"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<a href="https://www.facebook.com/photo/?fbid=595948762559347&set=a.681720511840979"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
@@ -135,16 +135,16 @@ include('../inc/header.php');
 		</div>		
 
 		<div class="gridy-1 gridyhe-1">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/maya.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/mojitoR.jpg)">&nbsp;</div>
 			
 			<div class="gridinfo">
-			<h3>Maya (adoptée)</h3>
+			<h3>Mojito</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 25/04/2022, Européen tigrée non LOOF</p>
-				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, déparasitée int/ext</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 08/05/2017, Européen roux non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, stérilisé, testé FIV/FELV négatif, porteur du calicivirus, déparasité int/ext</p>
 			</div>
-			<p class="gridexerpt">Arrivée avec sa maman et ses 2 frères, Maya est une petite chipie qui reste trouillarde au premier abord mais fait très vite des câlins et réclame des papouilles. Elle a une petite particularité : les paupières de ses yeux sont tombantes ce qui lui donne un charme fou et elle a des chaussettes blanche seulement a l'arrière. A adopter par 2 ou avec au moins un autre chat dans son futur foyer.</p>
-			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/pcb.5690016711011309/5690011987678448/" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<p class="gridexerpt">Mojito est un beau poil de carotte aux yeux dorés. C'est un chat assez discret, d'abord timide mais très gentil, voire même pot de colle avec l'humain quand il connaît. Très sociable avec les autres chats, il lui faudra la présence d'au moins un autre congénère dans son foyer ou il peut être adopté avec un autre de nos protégés. </p>
+			<a href="https://www.facebook.com/photo/?fbid=656192579868298&set=a.681720511840979" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
@@ -208,19 +208,6 @@ include('../inc/header.php');
 			</div>
 		</div>
 
-		<!-- <div class="gridy-1 gridyhe-1">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/syrahR.jpg)">&nbsp;</div>
-			<div class="gridinfo">
-			<h3>Syrah</h3>
-			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 22/05/2022, Européen  torbie (tigrée avec de jolies mèches rousses) non LOOF</p>
-				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, déparasitée int/ext</p>
-			</div>
-			<p class="gridexerpt"> Syrah est une vraie coquine, très joueuse et toujours joyeuse, elle peut avoir peur de l'inconnu au départ mais elle se transforme très vite en machine a ronrons malgré ce qu'elle a vécu. A adopter par 2 ou avec au moins un autre chat dans son futur foyer.</p>
-			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/pcb.5699750146704632/5699749556704691/"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
-			</div>
-		</div> -->
-
 		<div class="gridy-1 gridyhe-1">
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/iraisRtest.jpg)">&nbsp;</div>
 			
@@ -236,16 +223,16 @@ include('../inc/header.php');
 		</div>
 
 		<div class="gridy-1 gridyhe-1">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/mielR.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/pretty.jpg)">&nbsp;</div>
 			
 			<div class="gridinfo">
-			<h3>Miel (adopté)</h3>
+			<h3>Pretty</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 25/04/2022, Européen tigré non LOOF</p>
-				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, déparasité int/ext</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le  01/01/2019, Européen tricolore non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée TCL, stérilisée, testée FIV/FELV négatif et déparasitée int/ext</p>
 			</div>
-			<p class="gridexerpt">Miel est le plus sociable de la portée, un petit farceur qui aime bien avoir l'attention pour lui, très câlin, curieux et joueur. Le fait d'avoir beaucoup manqué de nourriture l'a rendu très (trop) gourmand, il faudra par la suite surveiller sa prise de poids. A adopter par 2 ou avec au moins un autre chat dans son futur foyer. </p>
-			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/pcb.5690016711011309/5690010401011940/" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<p class="gridexerpt">Pretty est une jolie minette qui nous a été apportée accidentée. Après opération et une longue convalescence bien méritée, la voici prête pour rejoindre sa famille pour la vie. Elle est adorable, très câline, un peu joueuse, elle est sociable avec les autres chats et pourra vivre avec ou sans congénère si la ou les personnes sont suffisamment présentes à ses côtés.</p>
+			<a href="https://www.facebook.com/photo.php?fbid=720436530110569&set=pb.100064326863857.-2207520000&type=3" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
@@ -274,6 +261,73 @@ include('../inc/header.php');
 			</div>
 			<p class="gridexerpt">Smoke est un petit minet très timide. Il a une malformation congénitale aux 2 pattes avant, non opérable, elles peuvent continuer à se redresser mais restera probablement malformées à vie. Actuellement il peut grimper mais pas redescendre sur une grande hauteur et aura besoin de surveillance. Il sera à adopter avec sa soeur Féline dans une famille calme. </p>
 			<a href="https://www.facebook.com/681342371878793/photos/pb.100064326863857.-2207520000./4550145848331740/?type=3" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			</div>
+		</div>
+
+		<div class="gridy-2 gridyhe-1">
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/neteyam.jpg)">&nbsp;</div>
+			
+			<div class="gridinfo">
+			<h3>Neteyam</h3>
+			<div class="gridmeta">
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 01/11/2022, Européenne tigré et blanc non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné TCL, stérilisé, testés FIV/FELV négatif et déparasité int/ext</p>
+			</div>
+			<p class="gridexerpt"> Neteyam arrivé avec son petit frère Lo'ak, est une petite bouille d'amour adorable qui égaye nos chatteries chaque jour avec son frère. Tous deux nés avec des malformations faciales, des tests effectués petits prouvent qu'ils n'ont aucune forme de trisomie. Neteyam vit parfaitement normalement avec sa malformation qui ne lui cause aucun soucis. Très sociable pour vivre en groupe avec d'autres chats. Il est  à adopter obligatoirement avec son frère, et/ou avec ou sans autre chat. Les conditions d'adoption seront strictes et non négociables.</p>
+			<a href="https://www.facebook.com/photo/?fbid=655952253225664&set=a.681720511840979" target="_blank" class="grid-btn grid-more"><span>Me découvrir </span> <i class="fa fa-plus"></i></a>
+			</div>
+		</div>	
+
+		<div class="gridy-1 gridyhe-1">
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/kenai.jpg)">&nbsp;</div>
+			
+			<div class="gridinfo">
+			<h3>Kenai</h3>
+			<div class="gridmeta">
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 01/06/2022, Européen roux et blanc non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé (250269300252032), vacciné TCL, stérilisé, testé FIV/FELV négatif et déparasité int/ext</p>
+			</div>
+			<p class="gridexerpt">Kenaï est un beau minet qui nous a été confié en urgence pour cause de handicapé ! Chaque jour ce petit clown joyeux et hyperactif ne cesse de nous étonner ! Légèrement ataxique, il a quelques tremblements de la tête et des petits défauts d'équilibre. Cela ne l'empêchent pas de vivre et de s'amuser. A adopter avec sa coloc Jinx. </p>
+			<a href="https://www.facebook.com/photo/?fbid=590247486462808&set=a.681720511840979" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			</div>
+		</div>
+
+		<div class="gridy-1 gridyhe-1">
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/nooka.jpg)">&nbsp;</div>
+			<div class="gridinfo">
+			<h3>Nooka</h3>
+			<div class="gridmeta">
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 01/01/2021, Européen tigré marron mi-angora non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné TCL, stérilisé, testé FIV/FELV négatif et déparasité int/ext</p>
+			</div>
+			<p class="gridexerpt">Nooka est un amour de chat-chien. Pris en charge en urgence, après plusieurs semaines de soins complet et d’amour, le voilà en pleine forme. Il est sociable avec les autres chats et peut être placé avec ou sans congénère. Ses humains devront, dans tous les cas, être présents et s'occuper beaucoup de lui. C'est un petit pot de colle !</p>
+			<a href="https://www.facebook.com/photo/?fbid=745937920893763&set=a.681720511840979"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			</div>
+		</div>
+
+		<div class="gridy-1 gridyhe-1">
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/loak.jpg)">&nbsp;</div>
+			<div class="gridinfo">
+			<h3>Lo'ak</h3>
+			<div class="gridmeta">
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le  01/11/2022, Européen tigré gris non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, testés FIV/FELV négatif, déparasité int/ext</p>
+			</div>
+			<p class="gridexerpt">Lo'ak, frère de Neteyam, est une bouilles d'amour qui égaye nos chatteries chaque jour. Né avec des malformations faciales, des tests effectués prouvent qu'ils n'ont aucune forme de trisomie. Ses narines sont plus petites que la norme. Sa respiration sera quelque chose à surveiller tout au long de sa vie. Très sociable, il est à adopté avec son frère. </p>
+			<a href="https://www.facebook.com/photo?fbid=655952253225664&set=a.681720511840979"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			</div>
+		</div>
+	
+		<div class="gridy-1 gridyhe-1">
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/wanted.jpg)">&nbsp;</div>
+			<div class="gridinfo">
+			<h3>Wanted</h3>
+			<div class="gridmeta">
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 01/02/2015, tigré gris et blanc non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné TCL, testé FIV+/FELV-, stérilisé, déparasité int/ext</p>
+			</div>
+			<p class="gridexerpt">Wanted est un amour de chat qui est maintenant tripatte, il se débrouille très bien et peut faire le petit timide quand il ne connaît pas. Il devient très vite un petit pot de glu en vous suivant partout. Wanted est sociable avec les autres chats mais ne cherche pas forcément leur compagnie. Il peut être placé seul ou avec d’autres chats au domicile.</p>
+			<a href="https://www.facebook.com/photo/?fbid=627005192787037&set=a.681720511840979"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
