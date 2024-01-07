@@ -165,7 +165,7 @@ header {
 }
 
 nav ul {
-    margin: 2%;
+    margin: 2% 0;
     padding: 0;
     list-style-type: none;
     text-align: right;
@@ -199,7 +199,7 @@ nav li a:hover {
     display: none;
 } 
 
-/*-------------------------------VIDEO--------------------------------*/
+/*-------------------------------IMG HEADER--------------------------------*/
 .headerImg{
     width: 100%;
     margin:0;
@@ -341,21 +341,6 @@ input {
     margin-top: 5vh;
 }
 
-/* .validation input{
-    width: 20%;
-    background-color: #A10684;
-    border-radius: 10px;
-    height: 4vh;
-    border: none;
-    margin: 2% 2%;
-    box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
-	-webkit-box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
-	-moz-box-shadow: 0 5px 7px rgba(71, 71, 71, 0.4)  ; 
-    color: white;
-    font-size: 1.8rem;
-    font-weight: 500;       
-
-} */
 
 /*----------------------------BANDE DON-----------------------------*/
 .fond-don {
@@ -390,9 +375,42 @@ input {
 
 
 /*-------------------------------RESPONSIVE DESKTOP--------------------------*/
-@media screen and (min-width:1200px) and (max-width:1400px) {
+@media screen and (min-width:1200px) and (max-width:1600px) {
     /* body{
-        background-color: #FF5E4D;
+        background-color: yellowgreen;
+    } */
+
+    header{
+        height: 8vh;;
+    }
+
+    .contenerLogo {
+        width: 4%;
+        padding: 0 2%;
+    }
+
+    
+    .mobile{
+        display: none;
+    }
+    
+    nav {
+        width: 82%;
+    }
+    section.headerTitle{
+        width: 35%;
+        top: 32vh;
+    }
+
+    .headerTitle h2 {
+        width: 93%;
+    }    
+}
+
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+    /* body{
+        background-color: pink;
     } */
 
     header{
@@ -415,10 +433,6 @@ input {
         height: 78vh;
     }
 
-    .mobile{
-        display: none;
-    }
-
     nav {
         width: 82%;;
     }
@@ -430,7 +444,7 @@ input {
 }
 
 /*------------------------------TABLET-------------------------------*/
-@media screen and (min-width:968px) and (max-width:1200px) {
+@media screen and (min-width:500px) and (max-width:1000px) {
 
     /* body{
         background-color: yellow;
@@ -459,11 +473,6 @@ input {
     .contenerVideo video {
         width: 100%;
         height: 78vh;
-    }
-
-
-    .mobile{
-        display: none;
     }
 
     .contenerVideo video{

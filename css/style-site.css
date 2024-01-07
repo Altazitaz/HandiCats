@@ -13,8 +13,8 @@
     text-align: left;
 }
 .contenerImg{
-    width: 30%;
-    border-radius: 15px;
+    width: 50%;
+    margin: 0 4%;
 }
 
 .assoImg{
@@ -27,13 +27,6 @@
     height: 60rem;
     border-radius: 8px;
     margin-bottom: 10%;
-}
-
-.specialAsso{
-    position: absolute;
-    left: 12%;
-    top: 128vh;
-    
 }
 
 .contenerEquipe{
@@ -53,29 +46,6 @@
     background-color: #ffff;
     min-height: 70rem;
 }
-.ghostTeam{
-    width: 40%;
-}
-
-.assoImgTeam{
-    width: 80%;
-}
-
-.backgroundTeam{
-    position: relative;
-    background-color: #e1cbec;
-    width: 95%;
-    height: 60rem;
-    border-radius: 8px;
-    margin-bottom: 10%;
-}
-
-.specialTeam{
-    position: absolute;
-    left: 55%;
-    top: 13vh;
-    
-}
 
 /*-------------------------------EVENEMENT--------------------------------*/
 .contenerActivity{
@@ -93,7 +63,7 @@
 }
 
 .don article{
-   min-height: 45rem;
+   min-height: 46rem;
 }
 
 .activity article h3,
@@ -146,10 +116,52 @@ strong{
 
 
 /*-------------------------------RESPONSIVE--------------------------------*/
-
-@media screen and (min-width:1200px) and (max-width:1500px) {
+@media screen and (min-width:1200px) and (max-width:1600px) {
     /* body{
-        background-color: #FF5E4D;
+        background-color: yellowgreen;
+    } */
+    .background {
+        width: 10%;
+        left: 168px;
+        top: -28vh;
+        height: 125vh;
+    }
+    .contener{
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .sous-legende{
+        width: 90%;
+    }
+
+    .contenerEquipe{
+        background-image: url(../assets/img/accueil/sirius2.png);
+    }
+
+    .team{
+        right: -112px;
+    }
+    .activity article {
+        width: 27%;
+        min-height: 62vh;
+    }
+
+    .don article {
+        min-height: 51rem;
+    } 
+
+    .don button,
+    .activity button{
+        margin-top: 9%;
+    }
+}
+
+
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+    /* body{
+        background-color: pink;
     } */
     .background {
         width: 10%;
@@ -185,6 +197,10 @@ strong{
         min-height: 62vh;
     }
 
+    .don article {
+        min-height: 51rem;
+    } 
+
     .don button,
     .activity button{
         margin-top: 9%;
@@ -193,7 +209,7 @@ strong{
 
 /*------------------------------TABLET-------------------------------*/
 
-@media screen and (min-width:968px) and (max-width:1200px) {
+@media screen and (min-width:500px) and (max-width:1000px) {
 
     /* body{
         background-color: yellow;
@@ -254,7 +270,7 @@ strong{
         width: 100%;
         min-height: 0;
         margin: 3% auto;
-    }
+    }   
 
     .activity button,
     .don button{
@@ -284,48 +300,14 @@ strong{
     }
 
     .contenerImg{
-        width: 78%;
-    }
-
-    .specialAsso,
-    .specialTeam {
-        position: absolute;
-    }
-
-    .specialAsso{
-        left: 12%;
-        top: 90vh;
-    }
-
-    .specialTeam{
-        left: 6%;
-        top: 142vh;
-    }
-
-    .backgroundAsso,
-    .backgroundTeam {
-        position: relative;
-        background-color: #e1cbec;
         width: 80%;
-        height: 30rem;
-        margin: 0 0 30% 5%;
-        border-radius: 8px;
     }
-
-    .backgroundTeam{
-        width: 88%;
-        height: 32rem;
-        margin: 20% 0% 0% 15%;
-    }
-
+   
     .contener article{
         width: 90%;
         padding-top: 10%;
     }
 
-    /* .assoImg{
-        min-height: 48rem;
-    } */
 
     .contenerEquipe {
         background-image: url(../assets/img/accueil/siriusMobil.png);

@@ -59,22 +59,6 @@
 				</ul>
 			</section>
 
-			<!-- <div id="menuToggle">
-				
-				<input type="checkbox" />
-				
-				<span></span>
-				<span></span>
-				<span></span>
-
-				<ul id="menu">
-					<li><a href="../accueil/">Accueil</a></li>
-					<li><a href="../adoption/">Nos chats</a></li>
-					<li><a href="../aide">Nous aider</a></li>
-					<li><a href="../presse/">Presse</a></li>
-					<li><a href="../accueil/#partie-contact">Contact</a></li>
-				</ul>
-			</div> -->
 		</nav>
 	</header>
 	<main>

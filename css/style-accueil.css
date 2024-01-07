@@ -1,0 +1,1216 @@
+/*-------------------------------MAIN--------------------------------*/
+
+.contener-association,
+.contener-evenement,
+.contener-presse,
+.contener-produit {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/*-------------------------------ASSOCIATION--------------------------------*/
+
+.association {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7%;
+}
+
+.contener-association h1 {
+    font-size: 3.8rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.association article {
+    width: 28%;
+    text-align: left;
+   
+}
+
+.association article >h2 {
+    font-size: 2.2rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.association p {
+    font-size: 2rem;
+    font-weight: 300;
+    padding-top: 5%;
+}
+
+.association a {
+    color: blue;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.association .adresse {
+    display: block;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2rem;
+    padding:5%;
+}
+
+
+/*-------------------------------SLIDER ANIMAUX--------------------------------*/
+
+
+.animaux h1 {
+    font-size: 3.8rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 8%;
+}
+
+@keyframes slidy {
+    0% {left: 0%;}
+    10% {left: 0%;}
+    20% {left: -100%;}
+    30% {left: -100%;}
+    40% {left: -200%;}
+    50% {left: -200%;}
+    60% {left: -300%;}
+    70% {left: -300%;}
+    80% {left: -400%;}
+    90% {left: -400%;}
+    100% {left: 0%;}
+}
+.slideshow{
+    overflow: hidden;
+    display: block
+}
+
+
+div#slider-1 img {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: 600px;
+    overflow: hidden;
+}
+
+div#slider-1 {
+    overflow: hidden;
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 30s slidy infinite;
+    margin-top: 3%;
+    /* padding-left: 0.35% */
+}
+
+#slider-1 {
+    overflow: hidden;
+    width: 100%;
+    padding: 0.5% 0 1% 0;
+    background: rgba(255, 94, 77, 1);
+    background: -moz-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255, 94, 77, 1)), color-stop(100%, rgba(161, 6, 133, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+    background: linear-gradient(135deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff5e4d', endColorstr='#a10685', GradientType=1);
+}
+
+
+
+
+
+
+/*-------------------------------EVENEMENT--------------------------------*/
+
+.evenement {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.contener-evenement h1 {
+    font-size: 3.8rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 58px;
+}
+
+.evenement article >h2 {
+    font-size: 2.2rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.evenement article {
+    width: 28%;
+    text-align: left;
+}
+
+.evenement article:first-child p {
+    margin-top: 35px;
+}
+
+.evenement h3 {
+    text-align: center;
+}
+
+.evenement p {
+    font-size:  2rem;
+    font-weight: 300;
+}
+
+.evenement a {
+    color: blue;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.saut-de-ligne {
+    width: 100%;
+    height: 1.4px;
+    margin-bottom: 25px;
+    background-color: #A10684;
+}
+
+.contener-trait {
+    height: 25px;
+    width: 100%;
+}
+
+.contener-trait img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+/*-------------------------------PRESSE--------------------------------*/
+
+.contener-presse h1 {
+    font-size: 3.8rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sous-legende {
+    font-size: 2rem;
+    color: black;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin:7% 0 8% 0;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    height: 315px;
+    margin: 70px 0;
+}
+
+iframe {
+    width: 50%;
+}
+
+.reportage {
+    width: 46%;
+    padding: 1% 3%;
+}
+
+.reportage h2 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.reportage p {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.contener-presse .journaux {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    /*border: 2px solid green;*/
+}
+
+.journal img,
+.mag img,
+.livre img {
+    height: 280px;
+    border:2px solid rgba(103, 113, 121, .2);
+    border-radius: 4px;
+}
+
+.journal p,
+.mag p {
+    width: 240px;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+    margin: 1% -7%;
+}
+
+.presse {
+    padding-left: 20px;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.presse >h2 {
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 2%;
+
+}
+
+.presse span {
+    font-weight: bold;
+    
+}
+
+.article-web{
+    padding-top: 5%;
+}
+
+.article-web h3{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.article-web p {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 1%;
+    padding-bottom: 10%;
+
+}
+
+
+/*----------------------------BOUTIQUE-----------------------------*/
+
+.contener-boutique h1 {
+    font-size: 3.8rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.trait-boutique {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.trait-boutique img {
+    width: 100%;
+}
+
+.banniere-ycar {
+    margin: 60px 0;
+    height: 805px;
+    background: url(../img/image-fond/banniere-ycar.png) transparent top center no-repeat;
+    background-size: cover;
+    position: relative;    
+}
+
+
+
+.ligne-1,
+.ligne-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ligne-1 div,
+.ligne-2 div {
+    width: 300px;
+    height: 310px;
+}
+
+.ligne-1 img,
+.ligne-2 img {
+    width: 100%;
+}
+
+.boutique-facebook {
+    width: 50px;
+    height: 50px;
+}
+
+.boutique-facebook img {
+    width: 100%;
+}
+
+/*---------------------------SLIDER BOUTIQUE------------------------------*/
+@keyframes slidy2 {
+    0% {left: 0%;}
+    16% {left: 0%;}
+    32% {left: -100%;}
+    48% {left: -100%;}
+    64% {left: -200%;}
+    80% {left: -200%;}
+    100% {left: 0%;}
+}
+
+#slider-2{
+    overflow: hidden; 
+}
+
+figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    width: 100%;
+    overflow: hidden; 
+    
+}
+
+figure img{
+    width: 25%;
+    float: left;
+    padding: 7% 3%;
+    overflow: hidden; 
+    
+}
+
+figcaption p{
+    font-size: 2.2rem;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    overflow: hidden; 
+
+}
+
+
+div#slider-2 {
+    overflow: hidden;
+    position: relative;
+    width: 300%;
+    margin: 0;
+    left: 0;
+    animation: 15s slidy2 infinite;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*----------------------------HOVER PRODUIT------------------------------*/
+
+.produit {
+    font-size: 1.2rem;
+    font-weight: 300;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 8px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.produit *,
+.produit:before,
+.produit:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.produit img {
+    max-width: 100%;
+    backface-visibility: hidden;
+    vertical-align: top;
+}
+
+.produit:before,
+.produit:after {
+    position: absolute;
+    top: 8%;
+    right: 8px;
+    content: '';
+    background-color: black;
+    z-index: 1;
+    opacity: 0;
+}
+
+.produit:before {
+    width: 0;
+    height: 1px;
+}
+
+.produit:after {
+    height: 0;
+    width: 1px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    bottom: 6%;
+}
+
+.produit h3,
+.produit a {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: normal;
+    opacity: 0;
+    color: black;
+    padding: 5px 0;
+}
+
+.produit a {
+    font-size: 1em;
+    color: blue;
+}
+
+.produit:hover img {
+    zoom: 1;
+    filter: alpha(opacity=20);
+    -webkit-opacity: 0.2;
+    opacity: 0.2;
+}
+
+.produit:hover:before,
+.produit.hover:before,
+.produit:hover:after,
+.produit.hover:after {
+    opacity: 1;
+    -webkit-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+}
+
+.produit:hover:before,
+.produit.hover:before {
+    width: 40px;
+}
+
+.produit:hover:after,
+.produit.hover:after {
+    height: 40px;
+}
+
+.produit:hover h3,
+.produit.hover h3,
+.produit:hover a,
+.produit.hover a {
+    opacity: 1;
+}
+
+.produit:hover h3,
+.produit.hover h3 {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.produit:hover a,
+.produit.hover a {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+
+/*-------------------------------RESPONSIVE--------------------------------*/
+
+@media screen and (min-width:1100px) and (max-width:1400px) {
+
+    .contener-association,
+    .contener-evenement,
+    .contener-presse,
+    .contener-produit {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .slideshow{
+        overflow: hidden;
+        display: block
+        
+    }
+
+    div#slider-1 {
+        overflow: hidden;
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 30s slidy infinite;
+        margin-top: 3%;
+        /* padding-left: 1.35% */
+    }
+
+    div#slider-1 img {
+        width: 20%;
+        float: left;
+        margin-top: 10px;
+        height: 450px;
+        overflow: hidden;
+    }    
+       
+
+    #slider-1 {
+        overflow: hidden;
+        width: 100%;
+        padding: 0.3% 0 1% 0;
+        background: rgba(255, 94, 77, 1);
+        background: -moz-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255, 94, 77, 1)), color-stop(100%, rgba(161, 6, 133, 1)));
+        background: -webkit-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: linear-gradient(135deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff5e4d', endColorstr='#a10685', GradientType=1);
+    }
+    /*-------------------------------PRESSE--------------------------------*/
+    .video {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        margin: 70px 0;
+        width: 100%
+    }
+    
+    iframe {
+        width: 100%;
+    }
+    
+    .reportage {
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    .reportage h2 {
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+    
+    .reportage p {
+        font-size: 2rem;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .journal p,
+    .mag p {
+        width: 240px;
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-align: center;
+        font-style: italic;
+        margin: 2% -5%;
+    }
+
+    .article-web{
+        margin-top: 5%;
+    }
+
+    .article-web h3{
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: left;
+    }    
+        
+
+    /*-------------------------------BOUTIQUE--------------------------------*/
+    .trait-boutique {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    .banniere-ycar {
+        margin: 60px 0;
+        height: 460px;
+        background: url(../img/image-fond/banniere-ycar.png) transparent top center no-repeat;
+        background-size: cover;
+        position: relative;    
+    }
+    
+    #slider-2{
+        overflow: hidden; 
+    }
+
+    figure{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;  
+        width: 90%;
+        overflow: hidden; 
+        
+    }
+    
+    figure img{
+        width: 25%;
+        float: left;
+        padding: 4% 0 7% 4%;
+        overflow: hidden; 
+        
+    }
+    
+    figcaption p{
+        font-size: 2rem;
+        color: black;
+        font-weight: 300;
+        text-align: center;
+        padding-right: 5%;
+        overflow: hidden; 
+    
+    }
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        bottom: 21%;
+    }
+    
+    
+}
+
+
+
+
+
+
+/*------------------------------TABLET-------------------------------*/
+
+@media screen and (min-width:968px) and (max-width:1100px) {
+    .contener-association,
+    .contener-evenement,
+    .contener-presse,
+    .contener-produit {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    hr{
+        width: 80%;
+    }
+    .contener-association{
+        padding-top: 5%;
+    }
+
+    .association p {
+        font-size: 1.8rem;
+        font-weight: 300;
+        padding-top: 5%;
+    }
+
+    .slideshow{
+        overflow: hidden;
+        display: block.
+        
+    }
+
+    div#slider-1 {
+        overflow: hidden;
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 30s slidy infinite;
+        margin-top: 3%;
+        /* padding-left: 1.35% */
+    }
+
+    div#slider-1 img {
+        overflow: hidden;
+        width: 20%;
+        float: left;
+        margin-top: 10px;
+        height: 320px;
+    }
+
+    #slider-1 {
+        overflow: hidden;
+        width: 100%;
+        padding: 0.3% 0 1% 0;
+        background: rgba(255, 94, 77, 1);
+        background: -moz-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255, 94, 77, 1)), color-stop(100%, rgba(161, 6, 133, 1)));
+        background: -webkit-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: linear-gradient(135deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff5e4d', endColorstr='#a10685', GradientType=1);
+    }
+
+    /*-------------------------------EVENEMENT--------------------------------*/
+    .evenement p {
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+
+    /*-------------------------------PRESSE--------------------------------*/
+    .video {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        margin: 70px 0;
+        width: 100%
+    }
+    
+    iframe {
+        width: 100%;
+    }
+    
+    .reportage {
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    .reportage h2 {
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+    
+    .reportage p {
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-align: left;
+    }
+    
+    .article-web{
+        margin-bottom: 15%;
+    }
+
+    .article-web h3{
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .article-web p{
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-align: left;
+        padding-top: 1%;
+        padding-bottom: 10%;
+    
+    }
+
+    .journal p,
+    .mag p {
+        width: 240px;
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-align: center;
+        font-style: italic;
+        margin: 2% -5%;
+    }
+
+    /*-------------------------------BOUTIQUE--------------------------------*/
+    .trait-boutique {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    .banniere-ycar {
+        margin: 60px 0;
+        height: 460px;
+        background: url(../img/image-fond/banniere-ycar.png) transparent top center no-repeat;
+        background-size: cover;
+        position: relative;    
+    }
+    
+    #slider-2{
+        overflow: hidden; 
+    }
+
+    figure{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;  
+        width: 90%;
+        overflow: hidden; 
+    }
+    
+    figure img{
+        width: 90%;
+        float: left;
+        padding: 11% 0 18% 9%;
+        overflow: hidden;
+    }
+    
+    figcaption p{
+        font-size: 2rem;
+        color: black;
+        font-weight: 300;
+        text-align: center;
+        padding-right: 5%;
+        overflow: hidden; 
+    }
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        bottom: 21%;
+    }
+    
+}
+
+
+
+
+
+
+/*-----------------------------MOBILE-------------------------------*/
+
+@media screen and (min-width:300px) and (max-width:968px) {
+    .contener-association,
+    .contener-evenement,
+    .contener-presse,
+    .contener-produit {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    hr{
+        width: 80%;
+    }
+
+    .association{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .association article {
+        width: 100%;
+        text-align: left;
+        padding-top: 10%; 
+        padding-bottom: 15%;
+        width: 100%
+       
+    }
+    
+    .association p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        padding-top: 5%;
+    }
+    
+    .association a {
+        color: blue;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    
+    .association .adresse {
+        display: block;
+        text-align: center;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding:5%;
+    }
+
+    .animaux h1{
+        margin-top: 15%;
+    }
+
+/*-------------------------------------SLIDER------------------------------*/
+    
+    .slideshow{
+        overflow: hidden;
+        display: block;
+       
+    }
+
+    div#slider-1 {
+        overflow: hidden;
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 30s slidy infinite;
+        margin-top: 5%;
+        padding-left:0.35%;
+    }
+
+    div#slider-1 img {
+        width: 20%;
+        float: left;
+        margin-top: 5px;
+        height: 160px;
+        overflow: hidden;
+    }
+
+    #slider-1 {
+        overflow: hidden;
+        width: 100%;
+        padding: 0.3% 0 2% 0;
+        background: rgba(255, 94, 77, 1);
+        background: -moz-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255, 94, 77, 1)), color-stop(100%, rgba(161, 6, 133, 1)));
+        background: -webkit-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        background: linear-gradient(135deg, rgba(255, 94, 77, 1) 0%, rgba(161, 6, 133, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff5e4d', endColorstr='#a10685', GradientType=1);
+    }
+
+    
+    /*-------------------------------EVENEMENT--------------------------------*/
+    .contener-evenement{
+        height: 1630px;
+    }
+
+    .evenement {
+        display: flex;
+        flex-direction: column;
+        margin: 70px 0;
+        width: 100%
+    }
+
+    .evenement article{
+        margin: 0 auto;
+        padding-top: 10%; 
+        padding-bottom: 15%;
+        width: 100%
+    }
+
+    .contener-evenement h1{
+        border-top: 3px solid #A10684;
+        width: 100%;
+        padding-top: 3%;
+        margin-top: 10%;
+    }
+
+    .evenement p {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    
+    .evenement a {
+        color: blue;
+        font-weight: 300;
+    }    
+     
+
+    .contener-trait img{
+        display: none;
+        
+    }
+
+     /*-------------------------------PRESSE--------------------------------*/
+  
+    .contener-presse{
+        height: 2900px;
+    }
+
+
+    .contener-presse h1{
+        border-bottom: 2px solid #A10684;
+        width: 100%;
+        padding-bottom: 4%;
+        
+    } 
+
+    .video {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        margin: 70px 0;
+        width: 100%
+    }
+    
+    iframe {
+        width: 100%;
+    }
+    
+
+    .reportage {
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    .reportage h2 {
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+    
+    .reportage p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .contener-presse .journaux{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1470px;
+        width: 100%;
+                
+    }
+
+    .journaux article{
+        margin: 0 auto; 
+       
+        
+        
+    }
+
+    .journal, .mag, .livre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        margin: 5% auto;
+
+    }
+
+    .article-web h3{
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-align: left;
+        padding-top: 10%;
+    }
+
+    .article-web p{
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-align: left;
+        padding-top: 1%;
+        padding-bottom: 10%;
+    
+    }
+
+    .journal p,
+    .mag p {
+        width: 240px;
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-align: center;
+        font-style: italic;
+        margin-bottom:30%; 
+    }
+
+    .presse h2, .presse p, .presse span{
+        text-align: center;
+        margin-top: 10%;
+        
+    } 
+
+
+    .journaux article h2, .journaux article p{
+        text-align: center;
+    }
+    
+
+ /*-------------------------------BOUTIQUE--------------------------------*/
+    .trait-boutique {
+        display: none;
+    }
+
+    .contener-boutique{
+        height: 3850px;
+        display: flex; 
+        flex-direction: column;
+
+    }
+    .contener-boutique h1{
+        border-bottom: 3px solid #A10684;
+        width: 80%;
+        padding-bottom: 5%;
+        margin-left: 10%
+        
+        
+    }
+
+    .banniere-ycar {
+        margin: 60px 0;
+        height: 300px;
+        background: url(../img/image-fond/banniere-ycar-mobile.png) transparent top center no-repeat;
+        background-size: cover;
+        position: relative;    
+    }
+
+    #slider-2{
+        overflow: hidden; 
+    }
+
+    figure{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;  
+        width: 90%;
+        overflow: hidden; 
+    }
+
+    figure img{
+        width: 100%;
+        float: left;
+        padding: 14% 0 19% 3%;
+        overflow: hidden; 
+    }
+
+    figcaption p{
+        font-size: 1.5rem;
+        color: black;
+        font-weight: 300;
+        text-align: center;
+        padding-right: 5%;
+        overflow: hidden; 
+    }
+    .contener-produit {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .ligne-1, .ligne-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: ;
+        margin: 0 auto;
+    }
+
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        top:80%;
+        /* bottom:8%; */
+        left: 0%;
+    }
+
+
+        
+
+
+
+
+}

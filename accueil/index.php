@@ -11,12 +11,10 @@
     
         <div id="partie-association" class="contenerAssociation">
             <section class="contener asso" >
-                <div class="assoImg">
-                    <div class="backgroundAsso"></div>
-                    <div class="contenerImg specialAsso">
-                        <img src="../assets/img/accueil/asso.png" alt="image association jardin" title="Image du jardin de l'association Handi'Cats"/>
-                    </div>
-                </div>    
+                <div class="contenerImg">
+                    <img src="../assets/img/accueil/assoDesktop.png" alt="image association jardin" title="Image du jardin de l'association Handi'Cats"/>
+                </div>
+                 
                 <article>
                     <h2>L'Association Handi'Cats</h2>
                     <hr>
@@ -48,13 +46,9 @@
                     Contactez-nous en passant par la rubrique <a href="#partie-contact"><span>« Contact ».</span></a>
                     </p>
                 </article>
-                <div class="ghostTeam"></div>
-                <div class="assoImgTeam">
-                    <div class="backgroundTeam"></div>
-                    <div class="contenerImg specialTeam ">
-                        <img src="../assets/img/accueil/integration.png" alt="image de l'équipe de l'association" title="Une partie des bénévoles de l'association Handi'Cats"/>
-                    </div>
-                </div>    
+                <div class="contenerImg">
+                    <img src="../assets/img/accueil/teamDesktop.png" alt="image de l'équipe de l'association" title="Une partie des bénévoles de l'association Handi'Cats"/>
+                </div>       
             </section> 
         </div>
 
