@@ -20,7 +20,7 @@ include('../inc/header.php');
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, stérilisée, vaccinée TCL, téstée FIV et FELV négative et déparasitée int/ext</p>
 			</div>
 			<p class="gridexerpt verticale">Diya, est un bébé miracle. C’est la seule survivante de sa portée de 5 chatons. C'est une petite boule de poils (qui seront mi-longs) toute noire pleine de vie, très joueuse, câline à ses heures perdues, elle est têtue et ça fait tout son charme ! Elle a grandi avec chats et chiens et est donc très sociable avec tout le monde. Elle recherche un foyer avec obligatoirement un autre chat déjà présent ou en duo avec l'un de nos autres protégés.</p>
-			<a href="https://www.facebook.com/photo/?fbid=655952349892321&set=a.681720511840979" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<a href="https://www.facebook.com/photo?fbid=801017522052469&set=a.681720511840979" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
@@ -39,15 +39,15 @@ include('../inc/header.php');
 		</div>
 
 		<div class="gridy-1 gridyhe-1">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/apisMAJ.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/pierrot.png)">&nbsp;</div>
 			<div class="gridinfo">
-			<h3>Apis</h3>
+			<h3>Pierrot</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 25/04/2022, Européen tigré gris non LOOF</p>
-				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, déparasité int/ext</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 01/06/2023, Européen tigré gris non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné,testé FIV/FELV négatif, déparasité int/ext</p>
 			</div>
-			<p class="gridexerpt">Apis est un petit chaton craintif au premier abord mais il se détend très vite pour les câlins et le jeu. Le fait d'avoir beaucoup manqué de nourriture l'a rendu très (trop) gourmand, il faudra par la suite surveiller sa prise de poids. A adopter par 2 ou avec au moins un autre chat dans son futur foyer.</p>
-			<a href="https://www.facebook.com/photo/?fbid=595948762559347&set=a.681720511840979"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<p class="gridexerpt">Voici un jeune chat espiègle, joueur, qui aime et a besoin d'autres chats pour évoluer mais en petit nombre. Adorable et très câlin, il aura besoin qu'on vienne le chercher les 1ères heures et ensuite il se transformera en chamallow ronronnant ! Suite à une opération de sa patte arrière, il faudra, tout au long de sa vie, le surveiller.</p>
+			<a href="https://www.facebook.com/photo?fbid=759118969575658&set=a.681720511840979"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
@@ -66,16 +66,16 @@ include('../inc/header.php');
 		</div>
 
 		<div class="gridy-1 gridyhe-2 ">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/parme.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/nooka.png)">&nbsp;</div>
 			
 			<div class="gridinfo verticale">
-			<h3>Parme</h3>
+			<h3>Nooka</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 05/03/2020, Red point à poils longs non LOOF</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 01/01/2021, Européen tigré marron mi-angora non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, testée FIV positive/FELV négative, stérilisée, déparasitée int/ext</p>
 			</div>
-			<p class="gridexerpt verticale">Parme est une magnifique minette très sociable qui vient de Guadeloupe. Elle est handicapée de naissance d'une patte avant mais également borgne. Elle s'entend bien avec les autres chats mais n'a pas obligatoirement besoin de leur présence. Testée FIV+, cela ne l'empêche absolument pas de vivre normalement, avec d'autres chats stérilisés et pacifiques non dominants comme elle. Avec les humains, elle pourra être timide mais avec du temps et de la confiance, les câlins et les demandes d'attention arriveront. C'est une minette très sensible et adorable qui s’épanouira dans un environnement calme sans jeunes enfants.</p>
-			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/a.681720511840979/5930467443632900" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<p class="gridexerpt verticale">Nooka alias Nook-nook est un amour de chat-chien tigré marron mi-angora. Après plusieurs semaines de soins, un déparasitage, une bonne alimentation et de l’amour, le voilà en pleine forme. Nooka ne garde aucune séquelle de son passé de jeune chat errant et va devenir un superbe tigré à poils mi-longs à sa prochaine grosse mue (son poil à beaucoup souffert). Nooka est sociable avec les autres chats, il peut être placé avec ou sans congénère mais ses humains devront, dans tous les cas, être très présents et s'occuper beaucoup de lui. Si vous cherchez un pot de colle c'est lui qu'il faut adopter !</p>
+			<a href="https://www.facebook.com/photo/?fbid=745937920893763&set=a.681720511840979" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
@@ -149,16 +149,17 @@ include('../inc/header.php');
 		</div>
 
 		<div class="gridy-1 gridyhe-2 ">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/khaleesiR.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/baia.png)">&nbsp;</div>
 			
 			<div class="gridinfo verticale">
-			<h3>Khaleesi</h3>
+			<h3>Baïa</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 01/02/2020, tortie tabby non LOOF</p>
-				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, testée FIV/FELV négative, castrée, déparasitée int/ext</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 01/01/2015, Européenne tigrée et blanc non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, testée FIV/FELV négative, stérilisée, déparasitée int/ext</p>
 			</div>
-			<p class="gridexerpt verticale">Khaleesi est une minette de seulement 2 ans qui a toute la vie devant elle, joueuse et très câline, elle aime s'exprimer vocalement. Elle a un caractère bien trempé et une grande sensibilité, ce qui fait qu'elle a du mal à gérer la contrainte ou le moindre changement dans son quotidien. Amputée d'une de ses pattes arrières, et n'ayant plus qu'un doigt à l'autre patte, elle ne peut pas sauter, mais simplement se hisser à l'aide de ses pattes avant. Elle devra être surveillée toute sa vie et nous souhaitons trouver une famille relativement proche géographiquement de l'association pour qu'elle puisse consulter nos vétérinaires en cas de problème avec sa patte. Vu son caractère, un placement sans animaux ni enfants (ou grands) est recherché.</p>
-			<a href="https://www.facebook.com/Association-HandiCats-Adoptions-681342371878793/photos/a.681720511840979/5515550951791220" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<p class="gridexerpt verticale">Prise en charge suite au décès de sa maîtresse, Baïa est une minette très sociable avec les autres chats, qui souhaite vivre dans le calme et la stabilité. Ayant beaucoup souffert de la perte de sa maîtresse, on évitera donc trop d'animaux dans son futur environnement mais également les enfants, elle pourrait très bien être placée comme chat unique. C'est une minette avec un fort caractère, qui aime qu'on la laisse tranquille quand elle l'a décidé mais qui aime aussi les longues séances de papouilles.
+.</p>
+			<a href="https://www.facebook.com/photo?fbid=803333851820836&set=a.681720511840979" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>			
 
@@ -231,7 +232,7 @@ include('../inc/header.php');
 				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le  01/01/2019, Européen tricolore non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée TCL, stérilisée, testée FIV/FELV négatif et déparasitée int/ext</p>
 			</div>
-			<p class="gridexerpt">Pretty est une jolie minette qui nous a été apportée accidentée. Après opération et une longue convalescence bien méritée, la voici prête pour rejoindre sa famille pour la vie. Elle est adorable, très câline, un peu joueuse, elle est sociable avec les autres chats et pourra vivre avec ou sans congénère si la ou les personnes sont suffisamment présentes à ses côtés.</p>
+			<p class="gridexerpt">Pretty est une jolie minette qui nous a été apportée accidentée. Après opération et une longue convalescence bien méritée, la voici prête pour rejoindre sa famille pour la vie. Adorable, très câline, un peu joueuse et sociable avec les autres chats, elle pourra vivre avec ou sans congénère si la/les personnes sont suffisamment présentes à ses côtés.</p>
 			<a href="https://www.facebook.com/photo.php?fbid=720436530110569&set=pb.100064326863857.-2207520000&type=3" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
