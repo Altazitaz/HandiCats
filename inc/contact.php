@@ -1,6 +1,6 @@
 <?php
 
-$affichage="";// ceci est la variable pour indiquer si oui ou non on  a reussi le formulaire elle sera appelé en fonction de l'action de l'utilisateur m^me système que $titre dans handicats on doit la retrouver dans le html
+$affichage="";// ceci est la variable pour indiquer si oui ou non on a reussi le formulaire elle sera appelé en fonction de l'action de l'utilisateur m^me système que $titre dans handicats on doit la retrouver dans le html
 
 if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir apparaitre le message
 {
@@ -85,7 +85,7 @@ if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir
 
 		elseif ($_POST['objet'] == "autre")
 		{
-			$email_destinataire = "vivetalexandra@gmail.com";
+			$email_destinataire = "handicats27@gmail.com" "vivetalexandra@gmail.com";
 			$email_suject = "Autre...";
 		}
 
@@ -115,7 +115,8 @@ if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir
 	}
 
 // ------------------------------Message d'envoi correct
-	if (mail($email_destinataire, $email_suject, $_POST['com'], $headers)) // Envoi d'un email
+    $body_message = $_POST['com'] . PHP_EOL . 'Email de : ' .  $_POST['mail'];
+	if (mail($email_destinataire, $email_suject, $body_message, $headers)) // Envoi d'un email
 	{
 	   // Si l'email est envoyé correctement
 		$affichage .= '<div class="success">Votre message a correctement été envoyé. Nous vous recontacterons prochainement!</div>';

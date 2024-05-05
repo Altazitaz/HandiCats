@@ -52,7 +52,7 @@ include('../inc/header.php');
 		</div>
 
 		<div class="gridy-1 gridyhe-1">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/cayenne.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/cayenne.png)">&nbsp;</div>
 			
 			<div class="gridinfo">
 			<h3>Cayenne</h3>
@@ -102,7 +102,7 @@ include('../inc/header.php');
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné, testé FIV/FELV négatif, castré, déparasité int/ext</p>
 			</div>
 			<p class="gridexerpt">Aegon est un petit chat très sage et sociable. Gentil avec tout le monde; il aime la présence de ses congénères. Très joueur il a besoin de la compagnie d'autres chats. Il lui faudra au moins un copain chat sympa dans sa future famille. Il s'entend aussi très bien avec les chiens.</p>
-			<a href="https://handicats.forumgratuit.org/t5879-aegon-annonce-type-pour-sites-gratuits" target="_blank" class="grid-btn grid-more"><span>Me découvrir </span> <i class="fa fa-plus"></i></a>
+			<a href="https://www.facebook.com/photo/?fbid=2295823147097366&set=a.681720511840979" target="_blank" class="grid-btn grid-more"><span>Me découvrir </span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
@@ -181,7 +181,7 @@ include('../inc/header.php');
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/jinx.jpg)">&nbsp;</div>
 			
 			<div class="gridinfo verticale">
-			<h3>Jinx</h3>
+			<h3>Jinx (Adoptée)</h3>
 			<div class="gridmeta">
 				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 12/10/2021, Europpéen bleue et blanche non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, testée FIV/FELV négative, stérilisée, déparasitée int/ext</p>
@@ -213,7 +213,7 @@ include('../inc/header.php');
 			<div class="gridimg" style="background-image: url(../assets/img/adoption/iraisRtest.jpg)">&nbsp;</div>
 			
 			<div class="gridinfo">
-			<h3>Irais</h3>
+			<h3>Irais (Adoptée)</h3>
 			<div class="gridmeta">
 				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 15/05/2016, Européen blanche et grise non LOOF</p>
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée, stérilisée, déparasitée int/ext</p>
@@ -289,20 +289,20 @@ include('../inc/header.php');
 				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé (250269300252032), vacciné TCL, stérilisé, testé FIV/FELV négatif et déparasité int/ext</p>
 			</div>
 			<p class="gridexerpt">Kenaï est un beau minet qui nous a été confié en urgence pour cause de handicapé ! Chaque jour ce petit clown joyeux et hyperactif ne cesse de nous étonner ! Légèrement ataxique, il a quelques tremblements de la tête et des petits défauts d'équilibre. Cela ne l'empêchent pas de vivre et de s'amuser. A adopter avec sa coloc Jinx. </p>
-			<a href="https://www.facebook.com/photo/?fbid=590247486462808&set=a.681720511840979" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<a href="https://www.facebook.com/photo.php?fbid=829180472569507&set=pb.100064326863857.-2207520000&type=3" target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
 		<div class="gridy-1 gridyhe-1">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/nooka.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/syrah.png)">&nbsp;</div>
 			<div class="gridinfo">
-			<h3>Nooka</h3>
+			<h3>Syrah</h3>
 			<div class="gridmeta">
-				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Né le 01/01/2021, Européen tigré marron mi-angora non LOOF</p>
-				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucé, vacciné TCL, stérilisé, testé FIV/FELV négatif et déparasité int/ext</p>
+				<p class="gridwhen"><i class="fa-solid fa-paw"></i>Née le 22/05/2022, Européen tigrée avec de jolies mèches rousses non LOOF</p>
+				<p class="gridwho"><i class="fa-solid fa-briefcase-medical"></i> Pucée, vaccinée TCL, stérilisée, testée FIV/FELV négatif et déparasitée int/ext</p>
 			</div>
-			<p class="gridexerpt">Nooka est un amour de chat-chien. Pris en charge en urgence, après plusieurs semaines de soins complet et d’amour, le voilà en pleine forme. Il est sociable avec les autres chats et peut être placé avec ou sans congénère. Ses humains devront, dans tous les cas, être présents et s'occuper beaucoup de lui. C'est un petit pot de colle !</p>
-			<a href="https://www.facebook.com/photo/?fbid=745937920893763&set=a.681720511840979"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
+			<p class="gridexerpt"> De nature assez craintive au départ, cette jolie minette de base câline et curieuse a été marqué par des abandons. Elle aura besoin d'un foyer calme, compréhensif et rempli d'amour, qui saura lui redonner confiance. La compagnie d'autres chats serait un grand plus. Ces petits soucis buccaux/dentaires résolus seront à surveiller sur le long de sa vie.</p>
+			<a href="https://www.facebook.com/photo.php?fbid=803333771820844&set=pb.100064326863857.-2207520000&type=3"  target="_blank" class="grid-btn grid-more"><span>Me découvrir</span> <i class="fa fa-plus"></i></a>
 			</div>
 		</div>
 
@@ -320,7 +320,7 @@ include('../inc/header.php');
 		</div>
 	
 		<div class="gridy-1 gridyhe-1">
-			<div class="gridimg" style="background-image: url(../assets/img/adoption/wanted.jpg)">&nbsp;</div>
+			<div class="gridimg" style="background-image: url(../assets/img/adoption/wanted.png)">&nbsp;</div>
 			<div class="gridinfo">
 			<h3>Wanted</h3>
 			<div class="gridmeta">
