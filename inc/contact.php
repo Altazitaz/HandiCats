@@ -85,7 +85,7 @@ if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir
 
 		elseif ($_POST['objet'] == "autre")
 		{
-			$email_destinataire = "handicats27@gmail.com" "vivetalexandra@gmail.com";
+			$email_destinataire = "handicats27@gmail.com,vivetalexandra@gmail.com";
 			$email_suject = "Autre...";
 		}
 

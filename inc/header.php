@@ -33,7 +33,7 @@
 		<nav id="nav-site" role="navigation">
 			<ul class="menu">
 				<li><a href="../accueil/">Accueil</a></li>
-				<li><a href="../adoption/">Nos chats</a></li>
+				<li><a href="../adoption/">Nos boules de poil</a></li>
 				<li><a href="../aide/">Nous aider</a></li>
 				<li><a href="../construction/">Presse</a></li>
 				<li><a href="../accueil/#partie-contact">Contact</a></li>
@@ -52,7 +52,7 @@
 				</label>
 				<ul class="menu">
 					<li><a href="../accueil/">Accueil</a></li>
-					<li><a href="../adoption/">Nos chats</a></li>
+					<li><a href="../adoption/">Nos boules de poil</a></li>
 					<li><a href="../aide">Nous aider</a></li>
 					<li><a href="../construction/">Presse</a></li>
 					<li><a href="../accueil/#partie-contact">Contact</a></li>
@@ -75,7 +75,7 @@
 			<h2>Sauvetage, Accueil et Placement des animaux handicapés, blessés et malades</h2>
 
 			<div class="buttonTitle">
-				<a href="../adoption/"><button>Nos chats</button></a>
+				<a href="../adoption/"><button>Nos boules de poil</button></a>
 				<a href="../aide"><button>Nous aider</button></a>
 			</div>
 		</section>
