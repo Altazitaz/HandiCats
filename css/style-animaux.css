@@ -16,10 +16,6 @@
 .gridywrap{
 margin-bottom: 5%;
 }
-.ghost p{
-min-height: 10px;
-color: white;
-}
 
 .gridywrap div[class*=gridy] {
   background: #eee;
@@ -225,6 +221,10 @@ box-sizing: border-box;
 
 .gridywrap .gridinfo.verticale:hover p.gridwhen{
   padding-top: 5%;
+}
+
+div.gridy-2.gridyhe-1.ghost{
+  opacity: 0;
 }
 
 

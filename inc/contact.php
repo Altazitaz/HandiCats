@@ -55,9 +55,9 @@ if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir
 	else // si le champ est rempli cela donnera ceci
 	{
 		//on verifie le nombre de caractere il faut qu'il soit entre 50 et 500 lettre
-		if ((iconv_strlen($_POST['com'])) < 10 OR (iconv_strlen($_POST['com']) >400))
+		if ((iconv_strlen($_POST['com'])) < 10 OR (iconv_strlen($_POST['com']) >500))
 		{
-			$affichage .= '<div class="erreur"> Attention votre message doit contenir entre 10 et 400 caractères.</div>';
+			$affichage .= '<div class="erreur"> Attention votre message doit contenir entre 10 et 500 caractères.</div>';
 
 		}
 	}
@@ -89,15 +89,15 @@ if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir
 			$email_suject = "Autre...";
 		}
 
-		// elseif ($_POST['objet'] == "famille")
-		// {
-		// 	$email_destinataire = "famille.accueil.handicats@gmail.com";
-		// 	$email_suject = "Je souhaite devenir famille d'accueil";
-		// }
+		elseif ($_POST['objet'] == "charge")
+		{
+			$email_destinataire = "handicats27@gmail.com";
+			$email_suject = "Je souhaite une prise en charge pour mon animal";
+		}
 
 		elseif ($_POST['objet'] == "parrainage")
 		{
-			$email_destinataire = "handicats27@gmail.com";
+			$email_destinataire = "parrainages.handicats@gmail.com";
 			$email_suject = "Je souhaite parrainer un de vos protégés";
 		}			
 
@@ -154,7 +154,7 @@ if (isset($_POST['validation'])) //ce sont des conditions à respecter pour voir
 					<label for="objet">Objet du message:</label>
 					<select name="objet">
 						<option value="adoption">Adoption</option>
-						<!-- <option value="famille">Devenir famille d'accueil</option> -->
+						<option value="charge">Prise en charge de mon animal</option>
 						<option value="parrainage">Parrainer un animal</option>
 						<option value="don">Faire un don</option>
 						<option value="boutique">Boutique</option>
